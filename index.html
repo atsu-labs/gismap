@@ -25,6 +25,27 @@
             width: 100%;
         }
         
+        /* トグルボタン（モバイルのみ表示） */
+        .toggle-button {
+            display: none;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+            z-index: 1001;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+        .toggle-button:hover {
+            background: #f0f0f0;
+        }
+        
         .control-panel {
             position: absolute;
             top: 10px;
@@ -35,6 +56,10 @@
             box-shadow: 0 2px 6px rgba(0,0,0,0.3);
             z-index: 1000;
             min-width: 250px;
+            max-width: 90vw;
+            max-height: 90vh;
+            overflow-y: auto;
+            transition: transform 0.3s ease, opacity 0.3s ease;
         }
         
         .control-panel h3 {
@@ -68,12 +93,37 @@
             font-size: 12px;
             color: #666;
         }
+        
+        /* モバイル用のスタイル */
+        @media (max-width: 768px) {
+            .toggle-button {
+                display: block;
+            }
+            
+            .control-panel {
+                top: 60px;
+                right: 10px;
+                left: 10px;
+                min-width: auto;
+                transform: translateX(0);
+                opacity: 1;
+            }
+            
+            .control-panel.hidden {
+                transform: translateX(calc(100% + 20px));
+                opacity: 0;
+                pointer-events: none;
+            }
+        }
     </style>
 </head>
 <body>
     <div id="map"></div>
     
-    <div class="control-panel">
+    <!-- モバイル用トグルボタン -->
+    <button class="toggle-button" id="toggleButton">📍 地図設定</button>
+    
+    <div class="control-panel hidden" id="controlPanel">
         <h3>地図設定</h3>
         
         <div class="control-section">
@@ -134,6 +184,36 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
             integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
             crossorigin=""></script>
+    
+    <!-- トグルボタンの初期化（Leafletより先に実行） -->
+    <script>
+        // トグルボタンの機能（モバイル用）
+        const toggleButton = document.getElementById('toggleButton');
+        const controlPanel = document.getElementById('controlPanel');
+        
+        toggleButton.addEventListener('click', () => {
+            controlPanel.classList.toggle('hidden');
+            
+            // ボタンのテキストを変更
+            if (controlPanel.classList.contains('hidden')) {
+                toggleButton.textContent = '📍 地図設定';
+            } else {
+                toggleButton.textContent = '✕ 閉じる';
+            }
+        });
+        
+        // デスクトップサイズでは常にパネルを表示
+        function checkScreenSize() {
+            if (window.innerWidth > 768) {
+                controlPanel.classList.remove('hidden');
+                toggleButton.textContent = '📍 地図設定';
+            }
+        }
+        
+        // 画面サイズ変更時にチェック
+        window.addEventListener('resize', checkScreenSize);
+        checkScreenSize();
+    </script>
     
     <script>
         // 地図の初期化（函館市）
