@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Style id="PolyStyle1">
+  <IconStyle>
+  <Icon>
+  <href>https://maps.gsi.go.jp/portal/sys/v4/symbols/815.png</href>
+  </Icon>
+  <scale>1</scale>
+  </IconStyle>
+</Style>
+<Placemark>
+<description><![CDATA[           入舟町㊦１号           ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.6973767280579,41.76885912121301</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[           船見町㊦９号           ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.70336341857913,41.76622641731542</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[           船見町㊦１１号           ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.70523560047153,41.76613839191438</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[           大町㊦６号           ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.70959687232974,41.76977133991316</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[           大町㊦４号           ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7111740112305,41.76754278276888</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[           元町㊦６号           ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71233808994296,41.76339754059569</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[           豊川町㊦７号           ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72028279304507,41.76859105447987</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[           豊川町㊦１３号           ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72107672691348,41.76513409356232</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[           豊川町㊦１４号           ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72008430957797,41.76459392659264</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[           谷地頭町㊦２２号           ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7130461931229,41.749903643115</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[           谷地頭町㊦３号           ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71347534656528,41.7553223520904</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[           住吉町㊦６号           ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71850180625918,41.75019980298527</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[           住吉町㊦５号           ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71951031684878,41.74841882100656</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[           元町㊦７号           ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.712885260582,41.76298140110683</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

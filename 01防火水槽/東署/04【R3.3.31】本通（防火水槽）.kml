@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Style id="PolyStyle1">
+  <IconStyle>
+  <Icon>
+  <href>https://maps.gsi.go.jp/portal/sys/v4/symbols/085.png</href>
+  </Icon>
+  <scale>1</scale>
+  </IconStyle>
+</Style>
+<Placemark>
+<description><![CDATA[  鍛治2丁目　№3  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.76782226562503,41.810443902306304</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  山の手2丁目　№5  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7841140031815,41.80019520115823</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.77277898788455,41.81781251688107</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.77173292636874,41.82007130924953</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   神山3丁目　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.76725363731387,41.81464607558613</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   神山3丁目　№3   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.76763987541202,41.81601741975922</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   神山3丁目　№4   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.77034890651706,41.816773045837955</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   神山3丁目　№2   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7685035467148,41.8145101389957</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   神山3丁目　№5   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.770338177681,41.81869605400249</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   神山3丁目　№6   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.76785981655124,41.818915936912155</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   神山3丁目　№7   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.76524734497073,41.81789647342126</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   陣川1丁目　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7762122154236,41.81666909780572</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   陣川1丁目　№2   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7749837636948,41.81884797318433</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   陣川1丁目　№3   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7761907577515,41.818788005129306</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   陣川町　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.79168856143954,41.83671595174649</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   陣川町　№2   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.78487038612369,41.838858175394925</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   東山1丁目　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.77340662479403,41.811159610668</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   東山2丁目　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.77489793300632,41.810207996680646</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   東山2丁目　№2   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.77809512615207,41.8090604433644</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   東山2丁目　№3   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7799404859543,41.80865259716487</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   東山3丁目　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.77804148197177,41.8115434509643</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   東山3丁目　№2   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.78027307987216,41.81167539553493</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   東山3丁目　№3   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.78130304813388,41.81237909532147</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   東山町　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7920426130295,41.80936032861929</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   東山町　№2   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.80491185188296,41.82726693069111</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   東山町　№3   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.80730974674228,41.82590781969919</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   東山町　№4   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.81002950668338,41.81550166985623</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   山の手1丁目　№2   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7784599065781,41.80624145334934</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   山の手1丁目　№3   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.78055739402774,41.80739705432922</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   山の手1丁目　№4   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7819896936417,41.80762097459961</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   山の手1丁目　№5   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.78361511230472,41.80949627613905</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   山の手1丁目　№7   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.78506350517276,41.80877655069624</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   山の手1丁目　№6   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.78342199325564,41.808680586692944</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   山の手1丁目　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.77757477760318,41.80557367442244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   山の手2丁目　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.77562749385837,41.80395018285224</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   山の手2丁目　№2   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7822954654694,41.80061509821727</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   山の手2丁目　№3   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.77964007854465,41.80191076322678</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   山の手2丁目　№4   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.78188776969913,41.80215069831653</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   山の手2丁目　№7   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.78613102436069,41.80219468631886</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   山の手2丁目　№6   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7848918437958,41.80082304621826</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   山の手3丁目　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.78123867511752,41.805461710807265</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   山の手3丁目　№2   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7858091592789,41.8070691696641</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   山の手3丁目　№3   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.78527271747592,41.806177474831465</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   山の手3丁目　№4   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.78548192977908,41.80324239163113</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   山の手3丁目　№5   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.78667819499972,41.80415012245888</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   山の手3丁目　№6   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.78811049461368,41.80702918361452</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   日吉町1丁目　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7924395799637,41.786893038022434</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   日吉町2丁目　№2   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.78722000122073,41.793624453576</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   日吉町2丁目　№3   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.79104483127597,41.79338048710478</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   日吉町2丁目　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7894462347031,41.79635201548497</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   日吉町3丁目　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.78382432460788,41.798087676263904</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   日吉町3丁目　№2   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7813405990601,41.79789971526943</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   日吉町3丁目　№3   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7825154066086,41.79606006792471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   中道1丁目　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75587034225467,41.80095501286888</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   中道1丁目　№2   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75723290443423,41.80217069286679</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   中道2丁目　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75890660285953,41.80572562473006</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   中道2丁目　№2   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75805902481082,41.80948028232817</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    鍛治1丁目　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.76114356517795,41.80121094741665</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   鍛治1丁目　№4   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.76428174972537,41.80675327919225</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   鍛治1丁目　№3   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.76493084430697,41.80474194003786</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   鍛治1丁目　№2   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.76659917831424,41.803770236672825</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   鍛治2丁目　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.76644361019137,41.80748502310021</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   鍛治2丁目　№2   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.76435148715976,41.81003606491465</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   本通1丁目　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.76582133769992,41.7979956954206</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   本通1丁目　№2   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.76568722724917,41.80249860260084</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   本通2丁目　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.769077539444,41.796176047251684</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   本通2丁目　№2   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7718884944916,41.79937139512438</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   本通2丁目　№3   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.76937794685367,41.80371825212691</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   本通3丁目　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.77335298061374,41.79543617553004</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   本通3丁目　№2   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.77663600444797,41.792640583111805</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   本通3丁目　№3   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7781165838242,41.79128473687329</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   本通4丁目　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7750910520554,41.80016720792313</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   花園町　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.78453779220584,41.78978887323673</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   花園町　№2   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7790178060532,41.794380343795986</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   深堀町　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7760459184647,41.78777300178449</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   深堀町　№2   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.78139960765841,41.78705303233209</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[   川原町　№1   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.77334225177768,41.791616701877935</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  日吉町4丁目　№2  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.78801393508914,41.800987004743256</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  日吉町4丁目　№3  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.78980028629306,41.80685324469991</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
