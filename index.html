@@ -169,10 +169,25 @@
             maxZoom: 18
         });
         
+        // オーバーレイレイヤーの参照配列
+        const overlayLayers = [
+            { layer: tsunamiLayer, toggle: null },
+            { layer: dosekiLayer, toggle: null },
+            { layer: kyukeishaLayer, toggle: null },
+            { layer: jisuberiLayer, toggle: null }
+        ];
+        
         // ベースマップ切り替え
         const basemapRadios = document.querySelectorAll('input[name="basemap"]');
         basemapRadios.forEach(radio => {
             radio.addEventListener('change', (e) => {
+                // 現在表示されているオーバーレイレイヤーを特定
+                const activeOverlays = overlayLayers.filter(ol => map.hasLayer(ol.layer));
+                
+                // 表示中のオーバーレイレイヤーを一時的に削除
+                activeOverlays.forEach(ol => map.removeLayer(ol.layer));
+                
+                // ベースマップを切り替え
                 if (e.target.value === 'osm') {
                     map.removeLayer(gsiLayer);
                     map.addLayer(osmLayer);
@@ -180,6 +195,9 @@
                     map.removeLayer(osmLayer);
                     map.addLayer(gsiLayer);
                 }
+                
+                // オーバーレイレイヤーを再追加（ベースマップの上に表示）
+                activeOverlays.forEach(ol => map.addLayer(ol.layer));
             });
         });
         
