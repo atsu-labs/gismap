@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Style id="PolyStyle1">
+  <IconStyle>
+  <Icon>
+  <href>https://maps.gsi.go.jp/portal/sys/v4/symbols/009.png</href>
+  </Icon>
+  <scale>1</scale>
+  </IconStyle>
+</Style>
+<Placemark>
+<name>函館空港</name>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.8226165766246,41.77117405129363</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

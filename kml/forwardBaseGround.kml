@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Style id="PolyStyle1">
+  <IconStyle>
+  <Icon>
+  <href>https://maps.gsi.go.jp/portal/sys/v4/symbols/101.png</href>
+  </Icon>
+  <scale>1</scale>
+  </IconStyle>
+</Style>
+<Placemark>
+<name>ＤＣＭ石川店</name>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73698973734284,41.84210174908793</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>大野真道</name>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.6913717987118,41.83712441862829</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>函館市港町ふ頭</name>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71305155754092,41.80144848585181</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>昆布館</name>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.6575555804011,41.92469186805786</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

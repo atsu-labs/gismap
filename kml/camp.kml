@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Style id="PolyStyle1">
+  <IconStyle>
+  <Icon>
+  <href>https://maps.gsi.go.jp/portal/sys/v4/symbols/319.png</href>
+  </Icon>
+  <scale>1.5</scale>
+  </IconStyle>
+</Style>
+<Style id="PolyStyle2">
+  <IconStyle>
+  <Icon>
+  <href>https://maps.gsi.go.jp/portal/sys/v4/symbols/802.png</href>
+  </Icon>
+  <scale>2</scale>
+  </IconStyle>
+</Style>
+<Placemark>
+<name>フットボールパーク</name>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.79419481760854,41.80305684509281</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>緑の島</name>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71415662765506,41.77069394683842</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>港町ふ頭</name>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71429610252383,41.79988727489957</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>大森公園</name>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73906898498538,41.770147426302614</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>戸井ウォーターパーク</name>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0308611392975,41.731971419154824</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>恵山海浜公園</name>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.1001865864455,41.77844157111339</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>南茅部運動公園</name>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.96337676048282,41.90763496036403</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>函館競輪場</name>
+<styleUrl>#PolyStyle2</styleUrl>
+<Point>
+<coordinates>140.7639148237938,41.777246243499526</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>サンリフレ</name>
+<styleUrl>#PolyStyle2</styleUrl>
+<Point>
+<coordinates>140.73638141155246,41.76862546307164</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

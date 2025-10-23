@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Style id="PolyStyle1">
+  <IconStyle>
+  <Icon>
+  <href>https://maps.gsi.go.jp/portal/sys/v4/symbols/009.png</href>
+  </Icon>
+  <scale>1</scale>
+  </IconStyle>
+</Style>
+<Style id="PolyStyle2">
+  <IconStyle>
+  <Icon>
+  <href>https://maps.gsi.go.jp/portal/sys/v4/symbols/040.png</href>
+  </Icon>
+  <scale>1</scale>
+  </IconStyle>
+</Style>
+<Placemark>
+<name>函館空港</name>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.8226165766246,41.77117405129363</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>前側石油豊川給油所</name>
+<styleUrl>#PolyStyle2</styleUrl>
+<Point>
+<coordinates>140.72197151177537,41.766268029378836</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>はこせき大川町給油所</name>
+<styleUrl>#PolyStyle2</styleUrl>
+<Point>
+<coordinates>140.738969206941,41.79945697538201</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>同盟石油五稜郭給油所</name>
+<styleUrl>#PolyStyle2</styleUrl>
+<Point>
+<coordinates>140.75130307661314,41.79455871667566</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>横山石油大野給油所</name>
+<styleUrl>#PolyStyle2</styleUrl>
+<Point>
+<coordinates>140.64222621924276,41.887032858535584</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>エネック落部</name>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.4203184841754,42.19006834555305</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>高森石油長万部</name>
+<styleUrl>#PolyStyle2</styleUrl>
+<Point>
+<coordinates>140.37544405473457,42.50823130746247</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>前側石油江差給油所</name>
+<styleUrl>#PolyStyle2</styleUrl>
+<Point>
+<coordinates>140.12840402119764,41.869698244719224</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
