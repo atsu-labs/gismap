@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Style id="PolyStyle1">
+  <IconStyle>
+  <Icon>
+  <href>https://maps.gsi.go.jp/portal/sys/v4/symbols/085.png</href>
+  </Icon>
+  <scale>1</scale>
+  </IconStyle>
+</Style>
+<Placemark>
+<description><![CDATA[ 日浦町　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.05055391788485,41.73077442518714</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 日浦町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0503286123276,41.73237975329554</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 日浦町　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0505968332291,41.73293220107138</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 日浦町　№4 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0516053438187,41.734401368775316</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 日浦町　№5  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.04954540729525,41.73619074562893</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 日浦町　№6   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0527211427689,41.735438172623844</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 豊浦町　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.07047200202945,41.74173069250962</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 豊浦町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.07352972030642,41.74297551365501</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 豊浦町　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0722261667252,41.74363593951287</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 豊浦町　№4 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.07142150402072,41.742459175980244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 大澗町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.07620120048526,41.74740624068193</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 大澗町　№3   ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.07586324214938,41.749047173098425</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 大澗町　№4 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.07560575008395,41.75013977068956</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 大澗町　№5 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0710781812668,41.74508084754939</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 大澗町　№6 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.07283234596255,41.74419229299431</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 大澗町　№7 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.07211351394656,41.745981397051374</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 大澗町　№8 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.07334196567538,41.74714208666632</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 中浜町　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.07601881027224,41.75225287370725</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 中浜町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0768395662308,41.75286117834776</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 中浜町　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.07645332813266,41.75782744990595</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 川上町　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.07589006423953,41.76174096931069</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 川上町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0722261667252,41.76509808257249</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 川上町　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.07115328311923,41.76402574605784</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 女那川町　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0794144868851,41.76098069280906</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 女那川町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0871767997742,41.76106872528616</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 女那川町　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.09094798564914,41.765014056850944</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 高岱町　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0975354909897,41.77619251238757</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 高岱町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.10227763652804,41.78403307238127</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 高岱町　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.10376894474032,41.784465075371074</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 日ノ浜町　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.1072397232056,41.786017062099766</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 日ノ浜町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.10843598842624,41.78562106905588</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 日ノ浜町　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.10973954200747,41.786025061934026</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 日ノ浜町　№4    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.10775470733645,41.78732502174218</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 日ノ浜町　№5 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.10553920269015,41.787601009817024</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 日ノ浜町　№6 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.10406398773196,41.789232915019845</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 日ノ浜町　№7 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.10351681709292,41.78853696052839</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 日ノ浜町　№8 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.1016553640366,41.79075278936563</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 日ノ浜町　№9 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.10284090042117,41.7888049438995</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 古武井町　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.11385405063632,41.787493014624886</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 古武井町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.11582815647128,41.78792099450344</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 古武井町　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.11824214458468,41.788676951981415</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 古武井町　№4 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.12121403217318,41.788700950485534</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 古武井町　№5 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.12418055534366,41.788956933970354</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 古武井町　№6 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.1259347200394,41.789208916714884</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 古武井町　№7 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.12968444824222,41.789212916433</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 柏野町　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.13851428031924,41.78515707409464</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 柏野町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.14062249660495,41.78622905737058</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 柏野町　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.1444687843323,41.7881889804494</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 柏野町　№4 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.1463248729706,41.787601009817024</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 柏野町　№5 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.14820241928103,41.79023283640782</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 柏野町　№6 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.15191459655764,41.793432480037175</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 恵山町　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.13554775714877,41.78418507376514</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 恵山町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.13830506801608,41.78385307027646</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 恵山町　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.1428809165955,41.785313072775274</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 恵山町　№4 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.1454397439957,41.78554107016421</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 恵山町　№5 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.14724755287173,41.78698503479927</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 恵山町　№6 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.14658236503604,41.784965075197434</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 恵山町　№8 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.15134060382846,41.78515307412348</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 恵山町　№9 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.15342736244204,41.78503307487262</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 恵山町　№10 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.15491867065432,41.784717075770914</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 恵山町　№11 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.1498868465424,41.78690103774741</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 恵山町　№12 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.15164637565616,41.78592906385692</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 恵山町　№13 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.15316450595858,41.78582106584838</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 恵山町　№14 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.16353392601016,41.791592704465366</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 恵山町　№15 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.16396307945254,41.79320851018182</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 御崎町　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.1680239439011,41.794968252248516</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 御崎町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.16913437843326,41.79508423355126</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 御崎町　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.17500841617587,41.79731583291953</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 御崎町　№4 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.17638707160952,41.798479593160074</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 銚子町　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.14190459251407,41.843969646966414</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 銚子町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.1423766613007,41.84308246226491</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 銚子町　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.14204943180087,41.84123611952885</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 銚子町　№4 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.14136278629306,41.84152386475838</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 銚子町　№5 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.14157736301425,41.8398413361212</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 銚子町　№6 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.14200651645663,41.83932178152183</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 新浜町　№5 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.1430096626282,41.8363802236304</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 新浜町　№4 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.14241957664493,41.835536898808854</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 新浜町　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.14019334316256,41.83473752853004</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 新浜町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.14229619503024,41.833950139045115</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 新浜町　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.14148616790774,41.83262314601556</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 新浜町　№6 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.14460825920108,41.834273889193746</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 新浜町　№7 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.14561140537265,41.83225142315602</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 新浜町　№8 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.14327251911166,41.8325192237131</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 新八幡町　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.142253279686,41.83003702934709</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 新八幡町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.14418447017672,41.830916400679484</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 新八幡町　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.14516615867618,41.83002503783633</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 新八幡町　№4 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.14649653434756,41.8302488789999</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 島泊町　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.14645361900332,41.82881388368003</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 島泊町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.1472582817078,41.82890182303712</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富浦町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.15400135517123,41.827470794851365</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富浦町　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.1558842658997,41.8273228934664</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富浦町　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.15124940872195,41.82803041862101</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 元村町　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.16463363170627,41.82148651201202</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 元村町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.16610884666446,41.8212186653012</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 元村町　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.16948843002322,41.820079304833214</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 元村町　№4 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.17390334606173,41.81995937097309</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 恵山岬町　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.17629587650302,41.81860010485987</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 恵山岬町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.18193387985232,41.81422227232235</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 恵山岬町　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.18120431900027,41.81324671452999</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 恵山岬町　№4 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.18173539638522,41.812119207096096</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

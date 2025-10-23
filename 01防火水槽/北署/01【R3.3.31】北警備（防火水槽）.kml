@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Style id="PolyStyle1">
+  <IconStyle>
+  <Icon>
+  <href>https://maps.gsi.go.jp/portal/sys/v4/symbols/085.png</href>
+  </Icon>
+  <scale>1</scale>
+  </IconStyle>
+</Style>
+<Placemark>
+<description><![CDATA[  昭和1丁目　№1  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74344098567965,41.811059651880036</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  昭和1丁目　№2  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74510931968692,41.817052905086186</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  昭和2丁目　№1  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74133813381198,41.810619831359894</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  昭和2丁目　№2  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7404047250748,41.812271141878966</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  昭和2丁目　№3  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74055492877963,41.813334675268265</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  昭和2丁目　№4  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73862910270694,41.81351059638246</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  昭和2丁目　№6  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73730409145358,41.81542570634132</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  昭和2丁目　№7  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73990046978,41.8149139497876</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  昭和3丁目　№1  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7378834486008,41.81696894744013</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  昭和3丁目　№2  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73709487915042,41.81840420824727</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  昭和3丁目　№3  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7352924346924,41.818648079449154</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  昭和3丁目　№4  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73603808879855,41.821610440708035</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  昭和4丁目　№1  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7335436344147,41.80920438846196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  昭和4丁目　№2  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73271214962008,41.81065581678862</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  昭和4丁目　№3  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73396742343905,41.8131947376733</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  昭和4丁目　№4  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73274433612826,41.815225801924186</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  昭和4丁目　№5  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73271214962008,41.81757663839348</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  昭和4丁目　№6  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73158562183383,41.82145053266823</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  昭和4丁目　№7  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73035180568698,41.821922260237095</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  昭和4丁目　№8  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7299602031708,41.818196317309116</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  昭和4丁目　№9  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73086678981784,41.81492194601519</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 赤川１丁目　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7618355751038,41.823465344786584</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 赤川１丁目　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7598721981049,41.82567197103047</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 赤川1丁目　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75687348842624,41.82767066104495</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 赤川町　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7660520076752,41.836452165517834</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 赤川町　№4 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.77494621276858,41.84615158943977</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 美原1丁目　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75133204460147,41.815225801924186</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 美原1丁目　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74930965900424,41.815101860872225</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 美原1丁目　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74618220329287,41.81805239241816</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 美原2丁目　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75842916965487,41.81525378858014</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 美原2丁目　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7573509216309,41.81614535707672</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 美原2丁目　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7578927278519,41.817844500337934</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 美原2丁目　№4 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.76038718223575,41.820890851384185</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 美原3丁目　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75248539447787,41.817444705979184</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 美原3丁目　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7504361867905,41.817316771257275</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 美原3丁目　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74830114841464,41.81973549383324</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 美原3丁目　№4 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74632167816165,41.82038313627352</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 美原3丁目　№5 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74412763118747,41.820339160759545</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 美原4丁目　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75493693351748,41.820678970764426</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 美原4丁目　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75538218021396,41.82293766202623</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 美原4丁目　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75703978538516,41.823493327841845</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 美原4丁目　№4 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7563263177872,41.82464861759105</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 美原5丁目　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75065612792972,41.820543046978855</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 美原5丁目　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7515519857407,41.82217411336359</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 美原5丁目　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75341880321505,41.82526423060471</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 美原5丁目　№4 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7530862092972,41.82621961830055</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡長3丁目　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75505495071414,41.80654535043672</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町3丁目　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75440585613253,41.80767695454493</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町3丁目　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75465798377993,41.80854063893041</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町3丁目　№4 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75354218482974,41.80820876158571</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町3丁目　№7 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75033426284793,41.81099567817388</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町3丁目　№6 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75210452079776,41.809456291604356</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町3丁目　№8 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74772179126742,41.812714949312436</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町3丁目　№5 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75398206710818,41.810415913548695</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

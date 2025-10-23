@@ -1,0 +1,4321 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="PolyStyle1">
+      <IconStyle>
+        <Icon>
+          <href>https://maps.gsi.go.jp/portal/sys/v4/symbols/085.png</href>
+        </Icon>
+        <scale>1</scale>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <description>  昭和1丁目　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74344098567965,41.811059651880036</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  昭和1丁目　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74510931968692,41.817052905086186</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  昭和2丁目　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74133813381198,41.810619831359894</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  昭和2丁目　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7404047250748,41.812271141878966</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  昭和2丁目　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74055492877963,41.813334675268265</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  昭和2丁目　№4  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73862910270694,41.81351059638246</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  昭和2丁目　№6  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73730409145358,41.81542570634132</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  昭和2丁目　№7  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73990046978,41.8149139497876</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  昭和3丁目　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7378834486008,41.81696894744013</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  昭和3丁目　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73709487915042,41.81840420824727</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  昭和3丁目　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7352924346924,41.818648079449154</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  昭和3丁目　№4  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73603808879855,41.821610440708035</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  昭和4丁目　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7335436344147,41.80920438846196</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  昭和4丁目　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73271214962008,41.81065581678862</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  昭和4丁目　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73396742343905,41.8131947376733</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  昭和4丁目　№4  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73274433612826,41.815225801924186</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  昭和4丁目　№5  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73271214962008,41.81757663839348</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  昭和4丁目　№6  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73158562183383,41.82145053266823</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  昭和4丁目　№7  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73035180568698,41.821922260237095</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  昭和4丁目　№8  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7299602031708,41.818196317309116</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  昭和4丁目　№9  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73086678981784,41.81492194601519</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 赤川１丁目　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7618355751038,41.823465344786584</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 赤川１丁目　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7598721981049,41.82567197103047</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 赤川1丁目　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75687348842624,41.82767066104495</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 赤川町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7660520076752,41.836452165517834</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 赤川町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.77494621276858,41.84615158943977</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 美原1丁目　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75133204460147,41.815225801924186</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 美原1丁目　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74930965900424,41.815101860872225</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 美原1丁目　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74618220329287,41.81805239241816</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 美原2丁目　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75842916965487,41.81525378858014</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 美原2丁目　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7573509216309,41.81614535707672</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 美原2丁目　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7578927278519,41.817844500337934</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 美原2丁目　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.76038718223575,41.820890851384185</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 美原3丁目　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75248539447787,41.817444705979184</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 美原3丁目　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7504361867905,41.817316771257275</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 美原3丁目　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74830114841464,41.81973549383324</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 美原3丁目　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74632167816165,41.82038313627352</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 美原3丁目　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74412763118747,41.820339160759545</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 美原4丁目　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75493693351748,41.820678970764426</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 美原4丁目　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75538218021396,41.82293766202623</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 美原4丁目　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75703978538516,41.823493327841845</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 美原4丁目　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7563263177872,41.82464861759105</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 美原5丁目　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75065612792972,41.820543046978855</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 美原5丁目　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7515519857407,41.82217411336359</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 美原5丁目　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75341880321505,41.82526423060471</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 美原5丁目　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7530862092972,41.82621961830055</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡長3丁目　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75505495071414,41.80654535043672</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町3丁目　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75440585613253,41.80767695454493</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町3丁目　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75465798377993,41.80854063893041</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町3丁目　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75354218482974,41.80820876158571</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町3丁目　№7 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75033426284793,41.81099567817388</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町3丁目　№6 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75210452079776,41.809456291604356</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町3丁目　№8 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74772179126742,41.812714949312436</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町3丁目　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75398206710818,41.810415913548695</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  亀田町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.733383,41.796832</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  亀田町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.735013,41.793756</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  八幡町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.738211,41.793121</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  八幡町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.734595,41.791977</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  白鳥町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.746901,41.792853</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  白鳥町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.745968,41.79398</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  大川町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.737857,41.799147</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  田家町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.741896,41.799171</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  田家町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74622,41.797432</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  田家町　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74394,41.799839</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  吉川町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.728115,41.795512</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  吉川町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.730073,41.795576</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  吉川町　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.729579,41.792709</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  追分町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.730872,41.798364</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  港町1丁目　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.72600126266482,41.804645969991</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  港町1丁目　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73007822036746,41.803902197253805</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  港町1丁目　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.723759,41.80467</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  港町1丁目　№4  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.725883,41.802439</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  港町3丁目　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.716249,41.811543</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  港町2丁目　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.718346,41.807793</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 亀田港町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.724553,41.809084</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 亀田港町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.727498,41.81022</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 亀田港町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.729279,41.808053</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 昭和町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.72885,41.813279</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 昭和町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.725932,41.812075</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 亀田本町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.734756,41.800899</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 亀田本町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.737926,41.802111</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 亀田本町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.739021,41.802966</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 亀田本町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73916,41.806509</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 亀田本町　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.735609,41.804218</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 亀田本町　№6 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.737079,41.806845</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 亀田本町　№8 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.737932,41.80894</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 亀田本町　№9 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74019,41.807813</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 亀田本町　№10 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.738747,41.805266</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 亀田本町　№11 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.740292,41.804858</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 亀田本町　№12 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74129521846774,41.805829590522386</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町１丁目　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.743183,41.800683</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町1丁目　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.741403,41.801959</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町1丁目　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.746289,41.803014</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町1丁目　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.747319,41.80369</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町1丁目　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74519,41.801835</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町1丁目　№6 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.743709,41.803674</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町1丁目　№7 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74791,41.804538</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町1丁目　№8 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.746295,41.80529</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町1丁目　№9 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.745973,41.806253</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町1丁目　№11 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.744069,41.809588</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町2丁目　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.749819,41.800931</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町2丁目　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.753837,41.805078</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町2丁目　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75167,41.805242</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町2丁目　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.747851,41.806181</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町2丁目　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.749921,41.808089</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富岡町2丁目　№6 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.748575,41.809116</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>      弥生町　№2      </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.704978,41.770596</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     入舟町　№1     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.702773,41.771764</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     船見町　№2     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.702532,41.767935</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>      船見町　№1      </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.699254,41.768907</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     船見町　№3     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.70184,41.766911</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     船見町　№4     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.70561647415164,41.76596234074998</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     船見町　№5     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.70567011833194,41.76756678918291</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     船見町　№6     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.695665,41.766871</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     大町　№1     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.710251,41.768471</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     弁天町　№1     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.703862,41.773908</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     弁天町　№2     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.705064,41.772504</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     弁天町　№3     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.706952,41.770716</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     元町　№1     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7122737169266,41.76443787751032</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     元町　№2     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.709833,41.765934</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     元町　№3     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.71298182010653,41.76515810087764</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     元町　№4     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.716072,41.762373</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     元町　№6     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.714822,41.763233</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     元町　№7     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.709495,41.764638</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     末広町　№1     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.71163,41.767403</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     豊川町　№1     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.720304,41.766062</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     青柳町　№1     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.712209,41.758032</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     青柳町　№2     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.714934,41.758588</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     青柳町　№4     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.71948349475863,41.75719118033161</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     青柳町　№5     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.71825,41.756155</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     谷地頭町　№1     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.712081,41.751316</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     谷地頭町　№2     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.714334,41.749976</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     谷地頭町　№3     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.71251,41.753922</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     宝来町　№1     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.721506,41.756987</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     宝来町　№3     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.722461,41.758976</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     宝来町　№5     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.721382,41.762125</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     栄町　№1     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.727101,41.763618</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     栄町　№2     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.72532,41.765486</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     東川町　№1     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.724108,41.763322</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     宝来町　№4     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.723094,41.760997</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     住吉町　№1     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.718223,41.750176</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.730336,41.776457</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  大手町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.725127,41.767063</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  大手町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.725025,41.770492</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  旭町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.729241,41.766162</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  東雲町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.72929,41.770439</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  大森町　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.736542,41.768951</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  大森町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.734439,41.768775</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  大森町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.731248,41.766527</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  大森町　№4  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.734777,41.770299</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  大森町　№5  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.736483,41.771328</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  松風町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.734847,41.772392</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  松風町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.732771,41.773652</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  若松町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.730668,41.774724</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  若松町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73173582553866,41.7771326301085</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  若松町　№4  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.732471,41.778309</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  千歳町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.738211,41.771016</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  千歳町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7364994287491,41.774272229115574</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  新川町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7338118553162,41.77582846310061</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  新川町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73721289634707,41.7785887852465</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  新川町　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73660135269168,41.77649655196672</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  上新川町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.738994,41.780293</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  海岸町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.730202,41.781065</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  大縄町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73398888111117,41.78080495790834</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  大縄町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7354158163071,41.78172900727735</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  大縄町　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.736676,41.782881</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  大縄町　№4  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.733404,41.783565</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  大縄町　№5  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.732304,41.781921</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  松川町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.735437,41.784225</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  松川町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.734617,41.786933</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  松川町　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.739042,41.787477</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 石川町№８ </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7399916648865,41.83516519287109</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 石川町№９ </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7381892204285,41.837355429000205</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 石川町№１０ </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7427489757538,41.838135227351316</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   桔梗1丁目　№2　   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.72914481163028,41.83170782455005</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   桔梗1丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73106527328494,41.82745080819768</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   桔梗1丁目　№3    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73111891746524,41.83393415134102</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   桔梗2丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7289677858353,41.83865434750037</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   桔梗2丁目　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.72835087776187,41.84173167995274</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   桔梗3丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.72914481163028,41.846339408848316</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   桔梗4丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.72816848754886,41.848141647907966</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   桔梗5丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73364019393924,41.84743434506145</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   桔梗5丁目　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.734675526619,41.85083891749682</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   桔梗5丁目　№3   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73807656764987,41.851178565604854</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   桔梗5丁目　№4   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7354533672333,41.852265427431455</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  桔梗町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73456287384036,41.83423791703588</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  桔梗町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.733597278595,41.83657206848383</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  桔梗町　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73193430900577,41.83704368463722</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  桔梗町　№4  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73382258415225,41.83845851224505</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  桔梗町　№5  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73457896709445,41.83912994491115</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  桔梗町　№6  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74133276939395,41.849783998932764</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  桔梗町　№7  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74392914772037,41.85171800301091</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  桔梗町　№8  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.71946740150455,41.84668307697681</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  桔梗町　№9  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.71822822093966,41.84825753293951</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  桔梗町　№10  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73498129844668,41.830664581941384</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  桔梗町　№11  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73380112648013,41.82991311696104</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  西桔梗町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.72424709796908,41.820115284947434</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  西桔梗町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.72260022163394,41.82216212038002</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  西桔梗町　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7270044088364,41.82330943896909</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  西桔梗町　№4  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.72757303714755,41.82463262756378</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  西桔梗町　№5  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.72184383869174,41.8269671292761</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  西桔梗町　№6  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.72581350803378,41.827250941317736</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  西桔梗町　№7  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.72570621967319,41.82987714235243</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  西桔梗町　№8  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.72175800800326,41.82981718462647</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  西桔梗町　№9  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.71955859661105,41.844597062955366</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  西桔梗町　№10  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.71735918521884,41.843993624760586</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  西桔梗町　№11  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.71517586708072,41.8442653724666</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  西桔梗町　№12  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.71643650531772,41.84660715045615</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  西桔梗町　№13  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.70860981941226,41.83363837809498</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  西桔梗町　№14  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7174611091614,41.82419689778346</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  西桔梗町　№15  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.72169899940494,41.817948446462395</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  西桔梗町　№16  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.71920990943912,41.820103291578285</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  西桔梗町　№17  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.71685492992404,41.82062699993932</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  亀田中野町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.77229082584384,41.851270470077004</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  亀田中野町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.76755404472354,41.84139997460984</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  亀田中野町　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.76655626297,41.84245503142378</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  石川町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.747646689415,41.83423791703588</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  石川町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74832260608676,41.83236333994303</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  石川町　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74682056903842,41.83170382748436</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  石川町　№4  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73816776275638,41.825516070586076</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  石川町　№5  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7421535253525,41.8277466100349</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  石川町　№6  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74277043342593,41.82494842986308</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  石川町　№7  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7447445392609,41.83391816363294</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  北美原1丁目　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7460963726044,41.82863001008849</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  北美原1丁目　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7497173547745,41.82577190701314</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  北美原2丁目　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7493579387665,41.82935750686176</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  北美原3丁目　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75301647186282,41.83070455323578</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  湯川町1丁目　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78536391258243,41.77497233905134</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  湯川町1丁目　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78404963016513,41.77795672196739</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  湯川町1丁目　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78133523464206,41.77874079953621</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  湯川町1丁目　№4  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78180730342868,41.779724883326466</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  湯川町2丁目　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7881534099579,41.77839676668122</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  湯川町2丁目　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.79019188880923,41.78022892039518</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  湯川町2丁目　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78835725784305,41.78166900447584</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  湯川町2丁目　№4  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78870058059695,41.7841450734359</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  湯川町3丁目　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7955187559128,41.77856478295727</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  湯川町3丁目　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.79704225063327,41.78042093347451</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  高松町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.81182122230533,41.76986736217964</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  高松町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.81887006759646,41.780140914208346</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  高松町　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.79914510250094,41.77474030346215</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  榎本町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.79624295234683,41.790892775979834</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  上野町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.798436999321,41.78589306454095</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  上野町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.79716563224795,41.7850090749955</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  上野町　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.80009460449222,41.78619705812934</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  高丘町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.79873740673068,41.79036882451173</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  高丘町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.80357611179355,41.78789299590712</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  高丘町　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.80502986907962,41.791012764262994</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  高丘町　№4  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.80931603908542,41.78850896220112</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 上湯川町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.80973446369174,41.78242903581308</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 上湯川町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.8197230100632,41.78715702841925</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 上湯川町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.81646680831912,41.783801069574345</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 上湯川町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.8222818374634,41.79250060031451</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 上湯川町　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.81273853778842,41.783161057478985</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 西旭岡町1丁目　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.82351028919223,41.79744780679268</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 西旭岡町2丁目　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.8288908004761,41.80009922430127</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 西旭岡町3丁目　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.83310186862948,41.80406614790006</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 鈴蘭丘町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.811762213707,41.811331539418425</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 鈴蘭丘町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.81244349479678,41.81041991194337</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 鈴蘭丘町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.81130087375644,41.81293085451958</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 鈴蘭丘町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.81314086914065,41.815385725507795</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 鈴蘭丘町　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.81492722034457,41.81637724281333</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 鈴蘭丘町　№6 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.81460535526278,41.81702092123399</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 鈴蘭丘町　№7 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.81281363964084,41.816956953481714</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 亀尾町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.85954844951632,41.794128381379814</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 銭亀町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.8296096324921,41.763565596162685</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 銭亀町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.8362025022507,41.76261727684015</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 銭亀町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.83588600158694,41.76127680157014</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 新湊町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.84447979927066,41.76138884236664</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 蛾眉野町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.95057189464572,41.7976277707272</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 志海苔町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.81700861454013,41.76733472680434</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     金堀町　№1     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7566320896149,41.77849677642238</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     駒場町　№2     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7736694812775,41.784181073733336</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     五稜郭町　№1     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7514071464539,41.79727983999788</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     時任町　№1     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7551354169846,41.78202102010988</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     松陰町　№1     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75920164585116,41.79103276228835</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     松陰町　№2     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.76058030128482,41.78618905831653</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     松陰町　№3     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.762055516243,41.790404821314496</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    人見町　№1    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75885832309726,41.78114097740137</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    杉並町　№1    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7565623521805,41.78901293022139</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    千代台町　№1    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74736237525943,41.780456935862894</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    千代台町　№2    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74696540832522,41.7825970415245</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    千代台町　№3    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7477378845215,41.78566506840376</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    千代台町　№4    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74832260608676,41.787117029944156</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    千代台町　№5    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75062930583957,41.785429071548144</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    中島町　№1    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74052810668948,41.784585075684994</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    中島町　№3    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74100553989413,41.780448935333894</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    中島町　№4    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74332833290103,41.78162900257696</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    中島町　№5    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7441169023514,41.7827330458256</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    中島町　№6    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74390232563022,41.7848210756472</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    的場町　№1    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.751428604126,41.780092910782805</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    的場町　№2    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7527428865433,41.7770086153684</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    湯浜町　№1    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.77847063541415,41.77671657971058</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    日乃出町　№1     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75109064579013,41.77561643344278</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     駒場町　№1     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7675486803055,41.78344906371246</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    柏木町　№2    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.76512396335605,41.7902608339822</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    柏木町　№4    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.77029526233676,41.78942490113616</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    柏木町　№1    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.76492011547091,41.785677068220686</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    柏木町　№3     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7627367973328,41.784221074040104</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    堀川町　№1    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74351072311404,41.77660456568076</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    堀川町　№2     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74759840965274,41.77823675077102</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    本町　№1     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7551354169846,41.790744790121295</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    本町　№2    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75312912464145,41.78734902075238</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    本町　№3    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75399279594424,41.78657704808785</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   柳町　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75977563858035,41.79395240704138</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   柳町　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.76187312603,41.7937444367458</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   梁川町　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7480758428574,41.7916806949342</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   梁川町　№3   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74943304061892,41.793508469631696</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  高盛町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7473731040955,41.77398818233386</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.96390783786776,41.8967629450985</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  古部町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.11888587474826,41.86429958930978</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  古部町　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.11560285091403,41.86413978792039</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  古部町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.11684739589694,41.86529833894469</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  木直町　№1  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.09695076942447,41.8772581523111</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  木直町　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.08891487121585,41.88003806892752</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  木直町　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.08557820320132,41.880725041180504</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  木直町　№4  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.08137249946597,41.88306947808364</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  木直町　№8   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.06762349605563,41.88628445185489</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  木直町　№10  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.05555891990664,41.887234934854376</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  木直町　№5  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.06917917728427,41.88624052162647</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  木直町　№6  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.0701769590378,41.88515423727906</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  木直町　№7  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.06877684593203,41.88299359476095</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  木直町　№9  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.06151878833774,41.88876047044177</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 尾札部町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.03072702884677,41.89404365374879</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 尾札部町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.03297472000125,41.895077876583834</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 尾札部町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.03771150112155,41.89407160593748</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 尾札部町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.02922499179843,41.89093689139765</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 尾札部町　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.02703630924228,41.89242639914507</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 尾札部町　№6 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.0225355625153,41.889028034446795</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 尾札部町　№7 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.02212786674502,41.890821083710065</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 尾札部町　№8 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.02117300033572,41.88848092476183</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 尾札部町　№9 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.0166668891907,41.89233854710512</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 尾札部町　№10 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.00994527339938,41.89122840637142</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 尾札部町　№11 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.00887775421145,41.89093689139765</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 尾札部町　№12 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.01009011268618,41.893237028176145</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 尾札部町　№13 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.0093176364899,41.89473047541447</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 尾札部町　№14 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.00635647773745,41.896443504245596</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 尾札部町　№15 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.00255846977237,41.89751761776719</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 尾札部町　№16 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.99853515625003,41.89851584833807</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 尾札部町　№17 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.99747836589816,41.89667110601695</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 尾札部町　№18 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.99751055240634,41.89453481185506</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 川汲町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.99362671375277,41.901127145711</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 川汲町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.9870553016663,41.90338299706955</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 川汲町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.98629355430606,41.901155094799485</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 川汲町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.98515093326571,41.90386609823778</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 川汲町　№6 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.97776949405673,41.90676862086097</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 川汲町　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.97591876983645,41.904449008830824</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 川汲町　№7 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.97511947155002,41.90643326047771</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 川汲町　№10 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.97382664680484,41.90764294500524</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 川汲町　№11 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.97039341926577,41.90636538970964</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 川汲町　№12 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.96912741661075,41.906776605610524</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 川汲町　№8 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.9701466560364,41.90439710604865</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 川汲町　№13 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.97219049930575,41.90961112859853</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 川汲町　№14 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.96764683723452,41.91230181284762</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 安浦町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.96535086631778,41.913475458580734</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 安浦町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.96194446086886,41.91374691098347</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 安浦町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.95982015132907,41.915678980027415</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 安浦町　№4  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.95843076705935,41.91680466271088</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 安浦町　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.9551960229874,41.92022949004638</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 臼尻町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.9528893232346,41.92341066266041</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 臼尻町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.95138728618625,41.926152650298434</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 臼尻町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.94992280006411,41.930351215207324</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 臼尻町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.94864606857303,41.93310886746093</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 臼尻町　№6  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.94146847724917,41.93036717880512</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 臼尻町　№7 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.94043850898745,41.93019157900968</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 臼尻町　№8 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.94088375568393,41.93415043881139</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 豊崎町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.93683362007144,41.93705956523997</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 豊崎町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.93419432640078,41.94144096200554</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 豊崎町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.93257963657382,41.94328042046409</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 豊崎町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.93127608299258,41.95119626945535</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 豊崎町　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.92583119869235,41.95442377052972</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 豊崎町　№6 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.9246671199799,41.952548727993765</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 大船町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.9278374910355,41.95869227865247</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 大船町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.92514455318454,41.96042353596316</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 大船町　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.9201663732529,41.96410529316713</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 大船町　№6 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.91925442218783,41.965262031032395</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 双見町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.90807497501376,41.97733472741975</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 双見町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.90793013572696,41.979890957920205</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 双見町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.9047114849091,41.98611959539071</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 双見町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.89516282081607,41.99216422040678</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 岩戸町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.89297413825992,41.99525409393694</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 岩戸町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.88056623935702,42.00077163689239</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 岩戸町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.86549222469333,42.00803460923095</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 岩戸町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.86850166320804,42.00632059061576</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  鍛治2丁目　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.76782226562503,41.810443902306304</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  山の手2丁目　№5  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7841140031815,41.80019520115823</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.77277898788455,41.81781251688107</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.77173292636874,41.82007130924953</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   神山3丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.76725363731387,41.81464607558613</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   神山3丁目　№3   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.76763987541202,41.81601741975922</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   神山3丁目　№4   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.77034890651706,41.816773045837955</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   神山3丁目　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7685035467148,41.8145101389957</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   神山3丁目　№5   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.770338177681,41.81869605400249</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   神山3丁目　№6   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.76785981655124,41.818915936912155</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   神山3丁目　№7   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.76524734497073,41.81789647342126</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   陣川1丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7762122154236,41.81666909780572</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   陣川1丁目　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7749837636948,41.81884797318433</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   陣川1丁目　№3   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7761907577515,41.818788005129306</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   陣川町　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.79168856143954,41.83671595174649</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   陣川町　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78487038612369,41.838858175394925</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   東山1丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.77340662479403,41.811159610668</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   東山2丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.77489793300632,41.810207996680646</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   東山2丁目　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.77809512615207,41.8090604433644</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   東山2丁目　№3   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7799404859543,41.80865259716487</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   東山3丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.77804148197177,41.8115434509643</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   東山3丁目　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78027307987216,41.81167539553493</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   東山3丁目　№3   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78130304813388,41.81237909532147</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   東山町　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7920426130295,41.80936032861929</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   東山町　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.80491185188296,41.82726693069111</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   東山町　№3   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.80730974674228,41.82590781969919</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   東山町　№4   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.81002950668338,41.81550166985623</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   山の手1丁目　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7784599065781,41.80624145334934</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   山の手1丁目　№3   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78055739402774,41.80739705432922</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   山の手1丁目　№4   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7819896936417,41.80762097459961</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   山の手1丁目　№5   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78361511230472,41.80949627613905</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   山の手1丁目　№7   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78506350517276,41.80877655069624</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   山の手1丁目　№6   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78342199325564,41.808680586692944</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   山の手1丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.77757477760318,41.80557367442244</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   山の手2丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.77562749385837,41.80395018285224</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   山の手2丁目　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7822954654694,41.80061509821727</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   山の手2丁目　№3   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.77964007854465,41.80191076322678</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   山の手2丁目　№4   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78188776969913,41.80215069831653</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   山の手2丁目　№7   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78613102436069,41.80219468631886</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   山の手2丁目　№6   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7848918437958,41.80082304621826</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   山の手3丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78123867511752,41.805461710807265</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   山の手3丁目　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7858091592789,41.8070691696641</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   山の手3丁目　№3   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78527271747592,41.806177474831465</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   山の手3丁目　№4   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78548192977908,41.80324239163113</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   山の手3丁目　№5   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78667819499972,41.80415012245888</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   山の手3丁目　№6   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78811049461368,41.80702918361452</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   日吉町1丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7924395799637,41.786893038022434</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   日吉町2丁目　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78722000122073,41.793624453576</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   日吉町2丁目　№3   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.79104483127597,41.79338048710478</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   日吉町2丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7894462347031,41.79635201548497</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   日吉町3丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78382432460788,41.798087676263904</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   日吉町3丁目　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7813405990601,41.79789971526943</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   日吉町3丁目　№3   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7825154066086,41.79606006792471</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   中道1丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75587034225467,41.80095501286888</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   中道1丁目　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75723290443423,41.80217069286679</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   中道2丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75890660285953,41.80572562473006</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   中道2丁目　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75805902481082,41.80948028232817</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>    鍛治1丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.76114356517795,41.80121094741665</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   鍛治1丁目　№4   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.76428174972537,41.80675327919225</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   鍛治1丁目　№3   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.76493084430697,41.80474194003786</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   鍛治1丁目　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.76659917831424,41.803770236672825</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   鍛治2丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.76644361019137,41.80748502310021</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   鍛治2丁目　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.76435148715976,41.81003606491465</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   本通1丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.76582133769992,41.7979956954206</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   本通1丁目　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.76568722724917,41.80249860260084</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   本通2丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.769077539444,41.796176047251684</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   本通2丁目　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7718884944916,41.79937139512438</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   本通2丁目　№3   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.76937794685367,41.80371825212691</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   本通3丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.77335298061374,41.79543617553004</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   本通3丁目　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.77663600444797,41.792640583111805</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   本通3丁目　№3   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7781165838242,41.79128473687329</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   本通4丁目　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7750910520554,41.80016720792313</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   花園町　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78453779220584,41.78978887323673</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   花園町　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7790178060532,41.794380343795986</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   深堀町　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7760459184647,41.78777300178449</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   深堀町　№2   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78139960765841,41.78705303233209</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>   川原町　№1   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.77334225177768,41.791616701877935</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  日吉町4丁目　№2  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78801393508914,41.800987004743256</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  日吉町4丁目　№3  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.78980028629306,41.80685324469991</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 古川町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.86491823196414,41.76057254065544</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 古川町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.86206972599032,41.766102381488224</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 石崎町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.87779283523562,41.75517028230192</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 白石町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.89494824409488,41.75180064349521</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 小安町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.89987814426425,41.74792654086728</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 小安町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.90582191944125,41.74616550783881</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 小安町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.91008663177493,41.74472462670446</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 小安町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.9118086099625,41.744124250021514</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 小安町　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.91658830642703,41.7442443258072</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 小安町　№6 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.91901838779452,41.74180674336819</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 小安町　№7 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.92275202274325,41.7425312233469</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 小安町　№8 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.92334210872653,41.74056990506829</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 小安町　№9 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.92496752738955,41.73980937778113</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 小安町　№10 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.926850438118,41.74125837463442</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 釜谷町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.9295165538788,41.73797606971746</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 小安町　№11 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.9276229143143,41.73976934977967</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 小安町　№12 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.93193054199222,41.73896077880785</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 釜谷町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.93073427677157,41.73712744651867</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 釜谷町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.938373208046,41.73617473352915</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 釜谷町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.93771874904635,41.73436934367957</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 釜谷町　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.94045996665957,41.73113873009744</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 釜谷町　№6 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.94377517700198,41.72885278267864</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 釜谷町　№7 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.9471440315247,41.72561788796634</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 釜谷町　№8 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.949724316597,41.723403812921475</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 釜谷町　№9 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.94273984432223,41.73117476014113</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 汐首町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.95127463340762,41.71834278346739</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 汐首町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.95209538936618,41.71676913848957</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 汐首町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.95107614994052,41.71643678614875</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 汐首町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.9535759687424,41.71485909014779</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 汐首町　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.95684289932254,41.713061110181044</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 瀬田来町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.97290933132174,41.71207600406215</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 瀬田来町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.97977578639987,41.71450670605465</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 瀬田来町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.98048925399783,41.71417834641078</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 瀬田来町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.98373472690585,41.71487510756067</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 瀬田来町　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.99065482616427,41.71660096041143</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 弁才町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.99056363105777,41.71906752811828</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 弁才町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.99272549152377,41.71784626860215</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 弁才町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.99580466747287,41.71716155229385</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 泊町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.99839568138125,41.71466287651613</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 泊町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.00322365760806,41.7155438309861</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 館町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.00384593009951,41.71685322736363</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 館町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.006453037262,41.71660096041143</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 館町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.00523531436923,41.71795037687559</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 浜町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.00888311862948,41.719784256502685</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 浜町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.0105782747269,41.720432908819994</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 浜町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.01015448570254,41.72255099331988</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 浜町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.01387202739718,41.722979406459466</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 浜町　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.01757884025576,41.7233597708718</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 浜町　№6 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.02077603340152,41.7231675870291</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 新二見町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.02888703346255,41.72320362154338</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 新二見町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.02978825569156,41.72277520989873</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 原木町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.03392422199252,41.729028935635064</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>  原木町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.03628993034366,41.72875669904431</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 原木町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.0404580831528,41.72807209898991</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 日浦町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.05055391788485,41.73077442518714</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 日浦町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.0503286123276,41.73237975329554</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 日浦町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.0505968332291,41.73293220107138</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 日浦町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.0516053438187,41.734401368775316</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 日浦町　№5  </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.04954540729525,41.73619074562893</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 日浦町　№6   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.0527211427689,41.735438172623844</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 豊浦町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.07047200202945,41.74173069250962</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 豊浦町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.07352972030642,41.74297551365501</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 豊浦町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.0722261667252,41.74363593951287</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 豊浦町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.07142150402072,41.742459175980244</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 大澗町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.07620120048526,41.74740624068193</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 大澗町　№3   </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.07586324214938,41.749047173098425</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 大澗町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.07560575008395,41.75013977068956</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 大澗町　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.0710781812668,41.74508084754939</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 大澗町　№6 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.07283234596255,41.74419229299431</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 大澗町　№7 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.07211351394656,41.745981397051374</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 大澗町　№8 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.07334196567538,41.74714208666632</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 中浜町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.07601881027224,41.75225287370725</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 中浜町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.0768395662308,41.75286117834776</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 中浜町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.07645332813266,41.75782744990595</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 川上町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.07589006423953,41.76174096931069</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 川上町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.0722261667252,41.76509808257249</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 川上町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.07115328311923,41.76402574605784</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 女那川町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.0794144868851,41.76098069280906</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 女那川町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.0871767997742,41.76106872528616</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 女那川町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.09094798564914,41.765014056850944</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 高岱町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.0975354909897,41.77619251238757</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 高岱町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.10227763652804,41.78403307238127</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 高岱町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.10376894474032,41.784465075371074</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 日ノ浜町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.1072397232056,41.786017062099766</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 日ノ浜町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.10843598842624,41.78562106905588</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 日ノ浜町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.10973954200747,41.786025061934026</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 日ノ浜町　№4    </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.10775470733645,41.78732502174218</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 日ノ浜町　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.10553920269015,41.787601009817024</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 日ノ浜町　№6 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.10406398773196,41.789232915019845</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 日ノ浜町　№7 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.10351681709292,41.78853696052839</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 日ノ浜町　№8 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.1016553640366,41.79075278936563</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 日ノ浜町　№9 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.10284090042117,41.7888049438995</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 古武井町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.11385405063632,41.787493014624886</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 古武井町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.11582815647128,41.78792099450344</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 古武井町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.11824214458468,41.788676951981415</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 古武井町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.12121403217318,41.788700950485534</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 古武井町　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.12418055534366,41.788956933970354</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 古武井町　№6 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.1259347200394,41.789208916714884</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 古武井町　№7 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.12968444824222,41.789212916433</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 柏野町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.13851428031924,41.78515707409464</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 柏野町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.14062249660495,41.78622905737058</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 柏野町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.1444687843323,41.7881889804494</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 柏野町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.1463248729706,41.787601009817024</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 柏野町　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.14820241928103,41.79023283640782</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 柏野町　№6 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.15191459655764,41.793432480037175</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 恵山町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.13554775714877,41.78418507376514</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 恵山町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.13830506801608,41.78385307027646</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 恵山町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.1428809165955,41.785313072775274</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 恵山町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.1454397439957,41.78554107016421</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 恵山町　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.14724755287173,41.78698503479927</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 恵山町　№6 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.14658236503604,41.784965075197434</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 恵山町　№8 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.15134060382846,41.78515307412348</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 恵山町　№9 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.15342736244204,41.78503307487262</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 恵山町　№10 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.15491867065432,41.784717075770914</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 恵山町　№11 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.1498868465424,41.78690103774741</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 恵山町　№12 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.15164637565616,41.78592906385692</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 恵山町　№13 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.15316450595858,41.78582106584838</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 恵山町　№14 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.16353392601016,41.791592704465366</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 恵山町　№15 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.16396307945254,41.79320851018182</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 御崎町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.1680239439011,41.794968252248516</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 御崎町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.16913437843326,41.79508423355126</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 御崎町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.17500841617587,41.79731583291953</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 御崎町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.17638707160952,41.798479593160074</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 銚子町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.14190459251407,41.843969646966414</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 銚子町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.1423766613007,41.84308246226491</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 銚子町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.14204943180087,41.84123611952885</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 銚子町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.14136278629306,41.84152386475838</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 銚子町　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.14157736301425,41.8398413361212</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 銚子町　№6 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.14200651645663,41.83932178152183</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 新浜町　№5 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.1430096626282,41.8363802236304</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 新浜町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.14241957664493,41.835536898808854</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 新浜町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.14019334316256,41.83473752853004</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 新浜町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.14229619503024,41.833950139045115</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 新浜町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.14148616790774,41.83262314601556</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 新浜町　№6 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.14460825920108,41.834273889193746</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 新浜町　№7 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.14561140537265,41.83225142315602</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 新浜町　№8 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.14327251911166,41.8325192237131</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 新八幡町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.142253279686,41.83003702934709</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 新八幡町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.14418447017672,41.830916400679484</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 新八幡町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.14516615867618,41.83002503783633</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 新八幡町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.14649653434756,41.8302488789999</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 島泊町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.14645361900332,41.82881388368003</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 島泊町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.1472582817078,41.82890182303712</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富浦町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.15400135517123,41.827470794851365</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富浦町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.1558842658997,41.8273228934664</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 富浦町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.15124940872195,41.82803041862101</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 元村町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.16463363170627,41.82148651201202</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 元村町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.16610884666446,41.8212186653012</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 元村町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.16948843002322,41.820079304833214</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 元村町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.17390334606173,41.81995937097309</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 恵山岬町　№1 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.17629587650302,41.81860010485987</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 恵山岬町　№2 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.18193387985232,41.81422227232235</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 恵山岬町　№3 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.18120431900027,41.81324671452999</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description> 恵山岬町　№4 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>141.18173539638522,41.812119207096096</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

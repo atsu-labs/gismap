@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Style id="PolyStyle1">
+  <IconStyle>
+  <Icon>
+  <href>https://maps.gsi.go.jp/portal/sys/v4/symbols/085.png</href>
+  </Icon>
+  <scale>1</scale>
+  </IconStyle>
+</Style>
+<Placemark>
+<description><![CDATA[  亀田町　№1  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.733383,41.796832</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  亀田町　№2  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.735013,41.793756</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  八幡町　№1  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.738211,41.793121</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  八幡町　№2  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.734595,41.791977</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  白鳥町　№1  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.746901,41.792853</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  白鳥町　№2  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.745968,41.79398</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  大川町　№1  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.737857,41.799147</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  田家町　№1  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.741896,41.799171</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  田家町　№2  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74622,41.797432</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  田家町　№3  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74394,41.799839</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  吉川町　№1  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.728115,41.795512</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  吉川町　№2  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.730073,41.795576</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  吉川町　№3  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.729579,41.792709</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  追分町　№1  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.730872,41.798364</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  港町1丁目　№1  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72600126266482,41.804645969991</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  港町1丁目　№2  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73007822036746,41.803902197253805</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  港町1丁目　№3  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.723759,41.80467</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  港町1丁目　№4  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.725883,41.802439</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  港町3丁目　№1  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.716249,41.811543</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[  港町2丁目　№1  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.718346,41.807793</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 亀田港町　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.724553,41.809084</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 亀田港町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.727498,41.81022</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 亀田港町　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.729279,41.808053</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 昭和町　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72885,41.813279</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 昭和町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.725932,41.812075</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 亀田本町　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.734756,41.800899</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 亀田本町　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.737926,41.802111</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 亀田本町　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.739021,41.802966</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 亀田本町　№4 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73916,41.806509</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 亀田本町　№5 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.735609,41.804218</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 亀田本町　№6 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.737079,41.806845</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 亀田本町　№8 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.737932,41.80894</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 亀田本町　№9 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74019,41.807813</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 亀田本町　№10 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.738747,41.805266</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 亀田本町　№11 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.740292,41.804858</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 亀田本町　№12 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74129521846774,41.805829590522386</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町１丁目　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.743183,41.800683</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町1丁目　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.741403,41.801959</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町1丁目　№4 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.746289,41.803014</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町1丁目　№5 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.747319,41.80369</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町1丁目　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74519,41.801835</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町1丁目　№6 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.743709,41.803674</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町1丁目　№7 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74791,41.804538</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町1丁目　№8 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.746295,41.80529</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町1丁目　№9 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.745973,41.806253</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町1丁目　№11 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.744069,41.809588</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町2丁目　№1 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.749819,41.800931</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町2丁目　№2 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.753837,41.805078</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町2丁目　№3 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75167,41.805242</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町2丁目　№4 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.747851,41.806181</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町2丁目　№5 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.749921,41.808089</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[ 富岡町2丁目　№6 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.748575,41.809116</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
