@@ -4,20 +4,28 @@
 
 ## ファイル一覧
 
-- `sample.kml`: 函館市の主要スポット（サンプル）
-  - 函館駅
-  - 五稜郭
-  - 函館山
-  - 赤レンガ倉庫
+現在のKMLファイル:
+- `baseAir.kml`: 航空基地
+- `baseGround.kml`: 地上基地
+- `camp.kml`: キャンプ地
+- `forwardBaseGround.kml`: 前方地上基地
+- `helicopterLanding.kml`: ヘリコプター着陸地点
+- `medical.kml`: 医療施設
+- `refuelingAir.kml`: 航空給油地点
+- `refuelingGround.kml`: 地上給油地点
 
 ## KMLファイルの追加方法
 
 1. このディレクトリに新しいKMLファイルを配置します
 2. `../index.html`の`kmlFiles`配列に新しいファイルパスを追加します:
    ```javascript
-   const kmlFiles = ['kml/sample.kml', 'kml/your-new-file.kml'];
+   const kmlFiles = [
+       'kml/baseAir.kml',
+       // ...既存のファイル
+       'kml/your-new-file.kml'
+   ];
    ```
-3. ブラウザで再読み込みすると、自動的にKMLファイルが読み込まれ、地図上に表示されます
+3. ブラウザで再読み込みすると、自動的にKMLファイルが読み込まれ、個別のチェックボックスで制御できます
 
 ## KMLファイルの形式
 

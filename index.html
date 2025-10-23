@@ -117,10 +117,7 @@
         </div>
         
         <div class="control-section">
-            <label>
-                <input type="checkbox" id="kmlToggle">
-                KMLレイヤー表示
-            </label>
+            <label>KMLレイヤー:</label>
             <div id="kmlFileList" style="margin-left: 20px; margin-top: 5px;">
                 <small style="color: #666;">読み込み中...</small>
             </div>
@@ -267,11 +264,19 @@
         });
         
         // KMLレイヤーの管理
-        let kmlLayers = [];
-        let kmlLayerGroup = L.layerGroup();
+        const kmlLayers = [];
         
         // KMLファイルのリストを取得して読み込み
-        const kmlFiles = ['kml/sample.kml']; // 利用可能なKMLファイルのリスト
+        const kmlFiles = [
+            'kml/baseAir.kml',
+            'kml/baseGround.kml',
+            'kml/camp.kml',
+            'kml/forwardBaseGround.kml',
+            'kml/helicopterLanding.kml',
+            'kml/medical.kml',
+            'kml/refuelingAir.kml',
+            'kml/refuelingGround.kml'
+        ];
         
         function loadKMLFiles() {
             const kmlFileList = document.getElementById('kmlFileList');
@@ -283,7 +288,7 @@
             }
             
             kmlFiles.forEach((file, index) => {
-                const fileName = file.split('/').pop();
+                const fileName = file.split('/').pop().replace('.kml', '');
                 
                 // KMLファイルを読み込む
                 const kmlLayer = omnivore.kml(file)
@@ -312,33 +317,46 @@
                     })
                     .on('error', function(e) {
                         console.error(`KMLファイル読み込みエラー: ${fileName}`, e);
-                        const fileDiv = document.querySelector(`[data-kml-index="${index}"]`);
-                        if (fileDiv) {
-                            fileDiv.style.color = '#c00';
-                            fileDiv.innerHTML = `<small>✗ ${fileName} (読み込みエラー)</small>`;
+                        const checkbox = document.getElementById(`kml-${index}`);
+                        if (checkbox && checkbox.parentElement) {
+                            checkbox.parentElement.style.color = '#c00';
+                            checkbox.disabled = true;
                         }
                     });
                 
-                kmlLayers.push(kmlLayer);
-                kmlLayerGroup.addLayer(kmlLayer);
+                // レイヤー情報を保存
+                kmlLayers.push({
+                    layer: kmlLayer,
+                    name: fileName,
+                    visible: false
+                });
                 
-                // ファイルリストに表示
-                const fileDiv = document.createElement('div');
-                fileDiv.setAttribute('data-kml-index', index);
-                fileDiv.innerHTML = `<small style="color: #0a0;">✓ ${fileName}</small>`;
-                kmlFileList.appendChild(fileDiv);
+                // チェックボックスを作成
+                const label = document.createElement('label');
+                label.style.display = 'block';
+                label.style.marginBottom = '5px';
+                
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.id = `kml-${index}`;
+                checkbox.style.marginRight = '5px';
+                
+                // チェックボックスの変更イベント
+                checkbox.addEventListener('change', (e) => {
+                    if (e.target.checked) {
+                        map.addLayer(kmlLayer);
+                        kmlLayers[index].visible = true;
+                    } else {
+                        map.removeLayer(kmlLayer);
+                        kmlLayers[index].visible = false;
+                    }
+                });
+                
+                label.appendChild(checkbox);
+                label.appendChild(document.createTextNode(fileName));
+                kmlFileList.appendChild(label);
             });
         }
-        
-        // KMLレイヤーの表示/非表示切り替え
-        const kmlToggle = document.getElementById('kmlToggle');
-        kmlToggle.addEventListener('change', (e) => {
-            if (e.target.checked) {
-                map.addLayer(kmlLayerGroup);
-            } else {
-                map.removeLayer(kmlLayerGroup);
-            }
-        });
         
         // KMLファイルを読み込む
         loadKMLFiles();
