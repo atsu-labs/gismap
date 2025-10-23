@@ -346,6 +346,38 @@
         // KMLレイヤーの管理
         const kmlLayers = [];
         
+        // KMLレイヤーごとのマーカー色定義
+        const markerColors = [
+            '#e74c3c', // 赤
+            '#3498db', // 青
+            '#2ecc71', // 緑
+            '#f39c12', // オレンジ
+            '#9b59b6', // 紫
+            '#1abc9c', // ティール
+            '#e67e22', // ダークオレンジ
+            '#95a5a6'  // グレー
+        ];
+        
+        // カスタムマーカーアイコンを生成する関数
+        function createColoredIcon(color) {
+            return L.divIcon({
+                className: 'custom-marker',
+                html: `<div style="
+                    background-color: ${color};
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 50% 50% 50% 0;
+                    border: 3px solid white;
+                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+                    transform: rotate(-45deg);
+                    position: relative;
+                "></div>`,
+                iconSize: [25, 25],
+                iconAnchor: [12, 25],
+                popupAnchor: [0, -25]
+            });
+        }
+        
         // KMLファイルのリストを取得して読み込み
         const kmlFiles = [
             'kml/baseAir.kml',
@@ -369,6 +401,7 @@
             
             kmlFiles.forEach((file, index) => {
                 const fileName = file.split('/').pop().replace('.kml', '');
+                const markerColor = markerColors[index % markerColors.length];
                 
                 // KMLファイルを読み込む
                 const kmlLayer = omnivore.kml(file)
@@ -376,8 +409,13 @@
                         // KMLが正常に読み込まれた
                         console.log(`KMLファイル読み込み完了: ${fileName}`);
                         
-                        // ポップアップを追加
+                        // ポップアップを追加し、カスタムアイコンを適用
                         this.eachLayer(function(layer) {
+                            // マーカーの場合、カスタムアイコンを適用
+                            if (layer.setIcon) {
+                                layer.setIcon(createColoredIcon(markerColor));
+                            }
+                            
                             if (layer.feature && layer.feature.properties) {
                                 const props = layer.feature.properties;
                                 let popupContent = '';
@@ -421,6 +459,17 @@
                 checkbox.id = `kml-${index}`;
                 checkbox.style.marginRight = '5px';
                 
+                // 色インジケーターを作成
+                const colorIndicator = document.createElement('span');
+                colorIndicator.style.display = 'inline-block';
+                colorIndicator.style.width = '12px';
+                colorIndicator.style.height = '12px';
+                colorIndicator.style.backgroundColor = markerColor;
+                colorIndicator.style.borderRadius = '50%';
+                colorIndicator.style.marginRight = '5px';
+                colorIndicator.style.border = '1px solid #ccc';
+                colorIndicator.style.verticalAlign = 'middle';
+                
                 // チェックボックスの変更イベント
                 checkbox.addEventListener('change', (e) => {
                     if (e.target.checked) {
@@ -433,6 +482,7 @@
                 });
                 
                 label.appendChild(checkbox);
+                label.appendChild(colorIndicator);
                 label.appendChild(document.createTextNode(fileName));
                 kmlFileList.appendChild(label);
             });
