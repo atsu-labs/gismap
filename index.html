@@ -93,6 +93,27 @@
         </div>
         
         <div class="control-section">
+            <label>
+                <input type="checkbox" id="dosekiToggle">
+                土石流警戒区域表示
+            </label>
+        </div>
+        
+        <div class="control-section">
+            <label>
+                <input type="checkbox" id="kyukeishaToggle">
+                急傾斜地警戒区域表示
+            </label>
+        </div>
+        
+        <div class="control-section">
+            <label>
+                <input type="checkbox" id="jisuberiToggle">
+                地すべり警戒区域表示
+            </label>
+        </div>
+        
+        <div class="control-section">
             <label for="opacitySlider">透過率:</label>
             <input type="range" id="opacitySlider" min="0" max="100" value="70">
             <div class="opacity-value" id="opacityValue">70%</div>
@@ -105,8 +126,8 @@
             crossorigin=""></script>
     
     <script>
-        // 地図の初期化（日本の中心付近）
-        const map = L.map('map').setView([36.5, 138.0], 6);
+        // 地図の初期化（函館市）
+        const map = L.map('map').setView([41.7688, 140.7288], 12);
         
         // OpenStreetMapタイルレイヤー
         const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -126,6 +147,27 @@
             opacity: 0.7,
             maxZoom: 18
         }).addTo(map);
+        
+        // 土石流警戒区域オーバーレイ
+        const dosekiLayer = L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/01/{z}/{x}/{y}.png', {
+            attribution: '<a href="https://disaportaldata.gsi.go.jp/">ハザードマップポータルサイト</a>',
+            opacity: 0.7,
+            maxZoom: 18
+        });
+        
+        // 急傾斜地警戒区域オーバーレイ
+        const kyukeishaLayer = L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/01/{z}/{x}/{y}.png', {
+            attribution: '<a href="https://disaportaldata.gsi.go.jp/">ハザードマップポータルサイト</a>',
+            opacity: 0.7,
+            maxZoom: 18
+        });
+        
+        // 地すべり警戒区域オーバーレイ
+        const jisuberiLayer = L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/01/{z}/{x}/{y}.png', {
+            attribution: '<a href="https://disaportaldata.gsi.go.jp/">ハザードマップポータルサイト</a>',
+            opacity: 0.7,
+            maxZoom: 18
+        });
         
         // ベースマップ切り替え
         const basemapRadios = document.querySelectorAll('input[name="basemap"]');
@@ -151,12 +193,45 @@
             }
         });
         
+        // 土石流レイヤーの表示/非表示切り替え
+        const dosekiToggle = document.getElementById('dosekiToggle');
+        dosekiToggle.addEventListener('change', (e) => {
+            if (e.target.checked) {
+                map.addLayer(dosekiLayer);
+            } else {
+                map.removeLayer(dosekiLayer);
+            }
+        });
+        
+        // 急傾斜地レイヤーの表示/非表示切り替え
+        const kyukeishaToggle = document.getElementById('kyukeishaToggle');
+        kyukeishaToggle.addEventListener('change', (e) => {
+            if (e.target.checked) {
+                map.addLayer(kyukeishaLayer);
+            } else {
+                map.removeLayer(kyukeishaLayer);
+            }
+        });
+        
+        // 地すべりレイヤーの表示/非表示切り替え
+        const jisuberiToggle = document.getElementById('jisuberiToggle');
+        jisuberiToggle.addEventListener('change', (e) => {
+            if (e.target.checked) {
+                map.addLayer(jisuberiLayer);
+            } else {
+                map.removeLayer(jisuberiLayer);
+            }
+        });
+        
         // 透過率調整
         const opacitySlider = document.getElementById('opacitySlider');
         const opacityValue = document.getElementById('opacityValue');
         opacitySlider.addEventListener('input', (e) => {
             const opacity = e.target.value / 100;
             tsunamiLayer.setOpacity(opacity);
+            dosekiLayer.setOpacity(opacity);
+            kyukeishaLayer.setOpacity(opacity);
+            jisuberiLayer.setOpacity(opacity);
             opacityValue.textContent = e.target.value + '%';
         });
     </script>
