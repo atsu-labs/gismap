@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="PolyStyle1">
+      <IconStyle>
+        <Icon>
+          <href>https://maps.gsi.go.jp/portal/sys/v4/symbols/815.png</href>
+        </Icon>
+        <scale>1</scale>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <description>     白鳥町㊦２号     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74505567550662,41.79501224518117</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>     白鳥町㊦１号     </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74286699295047,41.794420337739226</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>           入舟町㊦１号           </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.6973767280579,41.76885912121301</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>           船見町㊦９号           </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.70336341857913,41.76622641731542</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>           船見町㊦１１号           </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.70523560047153,41.76613839191438</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>           大町㊦６号           </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.70959687232974,41.76977133991316</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>           大町㊦４号           </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7111740112305,41.76754278276888</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>           元町㊦６号           </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.71233808994296,41.76339754059569</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>           豊川町㊦７号           </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.72028279304507,41.76859105447987</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>           豊川町㊦１３号           </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.72107672691348,41.76513409356232</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>           豊川町㊦１４号           </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.72008430957797,41.76459392659264</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>           谷地頭町㊦２２号           </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7130461931229,41.749903643115</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>           谷地頭町㊦３号           </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.71347534656528,41.7553223520904</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>           住吉町㊦６号           </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.71850180625918,41.75019980298527</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>           住吉町㊦５号           </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.71951031684878,41.74841882100656</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>           元町㊦７号           </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.712885260582,41.76298140110683</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>                 松風町㊦９号                 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7331305742264,41.77125566805388</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>                 松風町㊦８号                 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73396205902102,41.77216385189348</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>                 松風町㊦７号                 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73237955570224,41.772571930312864</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>                 若松町㊦１号                 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.72409689426425,41.772603936353605</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>                 若松町㊦２号                 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.72480499744418,41.77243990522599</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>                 新川町㊦２号                 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73672473430636,41.77474030346215</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>                 大縄町㊦７号                 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73393523693088,41.781949017069216</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>                 大縄町㊦４号                 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73515295982364,41.7813969910714</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>                 大縄町㊦３号                 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7333076000214,41.78024492150709</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>                 松川町㊦７号                 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73913872241977,41.7841450734359</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>                 万代町㊦１号                 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73191285133365,41.78484907558508</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>                 万代町㊦２号                 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7324063777924,41.789332907860505</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>                 宮前町㊦１号                 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.73625266551974,41.78889293819498</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>                 宮前町㊦３号                 </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7373094558716,41.788996931297525</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>            的場町㊦２号            </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74948668479922,41.77821674875416</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>            本町㊦３号            </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75183093547824,41.786209057846676</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>            本町㊦２号            </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75082778930667,41.786573048205284</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>            松陰町㊦２号            </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7588475942612,41.78832897266227</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>            柏木町㊦７号            </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.7694584131241,41.78872894872896</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>            杉並町㊦３号            </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75653553009036,41.787888996106666</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>            杉並町㊦７号            </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75496375560763,41.79182467907719</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>            杉並町㊦８号            </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.75595617294314,41.79119674586093</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>            千代台町㊦４号            </description>
+      <styleUrl>#PolyStyle1</styleUrl>
+      <Point>
+        <coordinates>140.74921846389773,41.784465075371074</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

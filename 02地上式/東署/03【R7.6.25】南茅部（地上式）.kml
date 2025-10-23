@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Style id="PolyStyle1">
+  <IconStyle>
+  <Icon>
+  <href>https://maps.gsi.go.jp/portal/sys/v4/symbols/086.png</href>
+  </Icon>
+  <scale>1</scale>
+  </IconStyle>
+</Style>
+<Placemark>
+<description><![CDATA[ 川汲町㊤２２号 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.96414601815925,41.90690835383406</coordinates>
+</Point>
+</Placemark>
+<Style id="PolyStyle1">
+  <IconStyle>
+  <Icon>
+  <href>https://maps.gsi.go.jp/portal/sys/v4/symbols/086.png</href>
+  </Icon>
+  <scale>1</scale>
+  </IconStyle>
+</Style>
+<Placemark>
+<description><![CDATA[    古部町㊤７    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.1164045098849,41.86572667779062</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    古部町㊤６    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.11669182777408,41.8651864797614</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    古部町㊤５    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.11605882644656,41.86505464547273</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    古部町㊤２    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.11747503280642,41.86497474577154</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    古部町㊤８    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.11670792102817,41.86451931556807</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    古部町㊤３    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.1165523529053,41.86403991184918</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    古部町㊤４    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.11504495143893,41.86392006035781</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    古部町㊤１    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.11993553000502,41.86397998613156</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    木直町㊤１    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0807240485883,41.88354602331949</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    木直町㊤２    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0699033737183,41.88663189896091</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    木直町㊤３    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.07002139091495,41.884786813393305</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    木直町㊤４    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.06951713562015,41.883165330573</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    木直町㊤５    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0673499107361,41.88593300918174</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    木直町㊤６    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.06694757938388,41.88693142081152</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    木直町㊤７    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.06465160846713,41.887762087396396</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    木直町㊤８    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.06215715408328,41.88849290531607</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    木直町㊤９    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.06073021888736,41.889163812766974</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    木直町㊤１０    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.05684101581576,41.88926364958301</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    木直町㊤１１    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.05561256408694,41.887917836178666</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    木直町㊤１２    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0554945468903,41.88505439404093</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    木直町㊤１３    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.05571743839394,41.889774372355866</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    木直町㊤１４    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0543251037598,41.89096085158265</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    木直町㊤１５    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.05289816856387,41.89105669223284</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤１    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.04667544364932,41.89295750208618</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部㊤２    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.04338169097903,41.89301340740205</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤３    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.03973388671878,41.893875940359635</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤４    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.02848470211032,41.89248230492579</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤５    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.02262139320376,41.89110461250397</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤６    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.02107644081119,41.89049761974634</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤７    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.02123737335208,41.88855680156734</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤８    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.01955423349867,41.88730194723909</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤９    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.01800799369815,41.89181542563795</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤１０    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0161626338959,41.892582136555355</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤１１    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0134589672089,41.892717907321156</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤１２    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.011677980423,41.8925661635051</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤１３    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.01079821586612,41.891328239960735</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤１４    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.00855588912967,41.890681315531644</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤１５    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0103261470795,41.893101258513816</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤１６    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.00912451744082,41.89457075010478</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤１７    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.00614190101626,41.896335692597106</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤１８    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.00352406501773,41.89710234925404</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤１９    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.00185036659244,41.897613448579065</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤２０    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0004019737244,41.89802072792523</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤２１    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.99874973297122,41.89849189098713</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤２２    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.99529504776004,41.89956197723144</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤２３    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.00532650947574,41.89199911763356</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤２５    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.0024404525757,41.893812049428895</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    尾札部町㊤２４号    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>141.00233316421512,41.89619992952158</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    川汲町㊤１    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.994041061349,41.90079175569495</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    川汲町㊤５    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.98635921473036,41.903394974828664</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    川汲町㊤３    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.99028596872816,41.90253257042991</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    川汲町㊤２    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.9919167518092,41.9020374811604</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    川汲町㊤４    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.98831186289317,41.903011685422825</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    川汲町㊤６    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.9857369422389,41.90272421685849</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    川汲町㊤７    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.98467350006106,41.903858113124215</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    川汲町㊤８    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.98128318786624,41.905215568085026</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    川汲町㊤９    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.9774422645569,41.90491213948076</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    川汲町㊤１０    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.97849369049075,41.90626957203184</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    川汲町㊤１１    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.97610480814186,41.906856772508974</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    川汲町㊤１２    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.9750819206238,41.90646120724361</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    川汲町㊤１３    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.97334384918216,41.90539123661786</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    川汲町㊤１４    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.9756934642792,41.90765891428465</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    川汲町㊤１５    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.9717130661011,41.90769085283151</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    川汲町㊤１６    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.96694946289065,41.90716386476536</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    川汲町㊤１７    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.97286105155948,41.908944428173434</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    川汲町㊤１８    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.97109079360965,41.91008619830555</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    川汲町㊤１９    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.9686875343323,41.91152336244755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    川汲町㊤２０    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.9667778015137,41.91233774109844</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    川汲町㊤２１    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.97092986106875,41.90515432354751</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    安浦町㊤１    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.96507781665426,41.91341901248894</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    安浦町㊤２    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.9612846374512,41.91482871717884</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    安浦町㊤３    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.95984697341922,41.915459429672474</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    安浦町㊤４    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.9579908847809,41.917375480030806</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    安浦町㊤７    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.95428943634036,41.92115152754027</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    安浦町㊤５    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.95688581466678,41.91838936673801</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    安浦町㊤６    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.9555554389954,41.919858276384616</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    安浦町㊤８    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.95330238342288,41.92234895894422</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    臼尻町㊤５    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.95036268234256,41.92867102420198</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    臼尻町㊤１    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.95268011093142,41.92332285324875</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    臼尻町㊤３    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.95128536224368,41.925813400574114</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    臼尻町㊤２    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.95190763473514,41.924647964248756</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    臼尻町㊤４    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.95072746276858,41.92729810368613</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    臼尻町㊤６    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.94498217105868,41.92740586305095</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    臼尻町㊤７    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.94977860448128,41.93021951561668</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    臼尻町㊤８    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.94864606857303,41.93231869853857</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    臼尻町㊤９    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.9472191333771,41.93400278413742</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    臼尻町㊤１０    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.94688653945926,41.933388217768155</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    臼尻町㊤１１    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.94476222991946,41.93339619918751</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    臼尻町㊤１２    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.94040632247928,41.92985235076316</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    臼尻町㊤１３    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.94291687011722,41.93357179016101</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    臼尻町㊤１４    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.94054579734805,41.934290111837036</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    臼尻町㊤１５    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.93882918357852,41.93537556035404</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    臼尻町㊤１６    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.94052433967593,41.93116934445013</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    臼尻町㊤１７    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.94354987144473,41.9295809668671</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    臼尻町㊤１８    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.94040632247928,41.932374569390056</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    豊崎町㊤１    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.9371971130895,41.936711274449515</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    豊崎町㊤２    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.93600749969485,41.93796140739304</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    豊崎町㊤３    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.93512773513797,41.93925429159487</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    豊崎町㊤４    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.9342694282532,41.94069079885449</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    豊崎町㊤６    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.9312438964844,41.94862292839295</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    豊崎町㊤７    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.92237114906314,41.950936945218004</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    豊崎町㊤８    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.9247422218323,41.95297959371311</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    豊崎町㊤９    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.92894792556766,41.95561259871187</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    大船町㊤１１    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.92851877212527,41.95680938320775</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    大船町㊤１    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.928111076355,41.958285386467566</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    大船町㊤２    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.92457056045535,41.96051129429779</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    大船町㊤３    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.92324018478396,41.9611016654074</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    大船町㊤１２    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.9222138639598,41.96172035252901</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    大船町㊤４    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.92128045522261,41.962621845862735</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    大船町㊤５    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.92039704322818,41.96356680458333</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    大船町㊤６    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.91788649559024,41.966470600229414</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    大船町㊤７    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.91637372970584,41.967116756533</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    大船町㊤８    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.91429233551028,41.96832927906883</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    大船町㊤９    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.91831741938225,41.945935970262475</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    大船町㊤１０    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.90862751007083,41.97278031524458</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    大船町㊤１    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.9085845947266,41.97628987355529</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    大船町㊤２    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.90811252593997,41.97981518969303</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    大船町㊤３    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.9079194068909,41.98295750155368</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    大船町㊤４    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.89742660522464,41.99129902893786</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    岩戸町㊤２    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.89171886444095,41.996386345519426</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    岩戸町㊤１    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.89400410652163,41.99357162656485</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    岩戸町㊤３    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.88017463684085,42.001345689029755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    岩戸町㊤４    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.869574546814,42.00630464603976</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[    岩戸町㊤５    ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.86732149124148,42.00700620360344</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

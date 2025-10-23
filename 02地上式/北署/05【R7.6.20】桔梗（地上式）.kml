@@ -1,0 +1,1484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Style id="PolyStyle1">
+  <IconStyle>
+  <Icon>
+  <href>https://maps.gsi.go.jp/portal/sys/v4/symbols/086.png</href>
+  </Icon>
+  <scale>1</scale>
+  </IconStyle>
+</Style>
+<Placemark>
+<description><![CDATA[ 桔梗２丁目　㊤１３号 ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72888731956485,41.83895409417951</coordinates>
+</Point>
+</Placemark>
+<Style id="PolyStyle1">
+  <IconStyle>
+  <Icon>
+  <href>https://maps.gsi.go.jp/portal/sys/v4/symbols/086.png</href>
+  </Icon>
+  <scale>1</scale>
+  </IconStyle>
+</Style>
+<Placemark>
+<description><![CDATA[  桔梗町㊤35号  ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7323226930021,41.84219766301067</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[     桔梗５丁目㊤９号     ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73806524258546,41.851733986272045</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[       桔梗町㊤３３号       ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73566079150623,41.84845156226441</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[       桔梗町㊤３４号       ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73789179350572,41.84881697496646</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[        北美原２丁目㊤４号        ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75107455253604,41.82761469857365</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗1丁目　㊤1号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72923600673678,41.828638004603434</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗1丁目　㊤2号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7293111085892,41.82930954029612</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗1丁目　㊤3号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7288980484009,41.83287096005597</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗1丁目　㊤4号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72788417339328,41.8333066308009</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗1丁目　㊤5号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72982072830203,41.830760513006034</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗1丁目　㊤6号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73119938373569,41.83090041221764</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗1丁目　㊤7号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72915554046634,41.829909119783295</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗1丁目　㊤8号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.731435418129,41.82879389744567</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗1丁目　㊤9号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73096334934237,41.82706706323709</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗2丁目　㊤1号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72897851467135,41.83366635670382</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗2丁目　㊤2号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72685420513156,41.838514465236294</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗2丁目　㊤3号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7260870933533,41.84097634841866</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗2丁目　㊤4号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.726934671402,41.84016505646938</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗2丁目　㊤5号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72865664958957,41.84046879259093</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗2丁目　㊤6号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73002457618716,41.84128807362437</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗2丁目　㊤7号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73087215423587,41.84114420064118</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗2丁目　㊤8号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73019623756412,41.83974941522998</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗2丁目　㊤9号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72776615619662,41.83711562577885</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗2丁目　㊤10号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73021769523623,41.837527287422766</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗2丁目　㊤11号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7295793294907,41.83609245527204</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗2丁目　㊤12号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7280504703522,41.83569677166658</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗3丁目　㊤2号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72486937046054,41.84409353213962</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗3丁目　㊤3号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72673082351687,41.843969646966414</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗3丁目　㊤4号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72789490222934,41.84422540964105</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗3丁目　㊤5号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72838842868808,41.84358999736115</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗3丁目　㊤6号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73074877262118,41.84326229799575</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗3丁目　㊤7号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73054492473605,41.844569089125116</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗3丁目　㊤8号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7303732633591,41.84595178095308</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗3丁目　㊤9号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72861909866336,41.84594378860063</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗3丁目　㊤10号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73021769523623,41.84707469654725</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗3丁目　㊤11号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72750329971316,41.846715046011205</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗3丁目　㊤12号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72419345378879,41.845787937528335</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗3丁目　㊤13号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72589933872226,41.845384321448215</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗4丁目　㊤1号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72412908077243,41.84699877049133</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗4丁目　㊤2号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72667181491855,41.847582199975285</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗4丁目　㊤3号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72980463504794,41.84830148927586</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗4丁目　㊤4号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7296544313431,41.849596189636884</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗4丁目　㊤5号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72651088237765,41.849176613686055</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗4丁目　㊤6号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72495520114902,41.848840950944</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗4丁目　㊤7号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72319567203525,41.84822556467591</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗4丁目　㊤8号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72265923023227,41.84911267806145</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗4丁目　㊤9号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72236418724063,41.849752031431976</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗4丁目　㊤10号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72399497032168,41.85013963630163</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗4丁目　㊤11号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72591006755832,41.85009568122829</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗4丁目　㊤12号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72751939296725,41.850539226492046</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗4丁目　㊤13号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7294934988022,41.851410324455195</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗4丁目　㊤14号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72644114494327,41.85099875212525</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗4丁目　㊤15号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72573840618136,41.847370407695585</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗5丁目　㊤1号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73497056961062,41.847861924553186</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗5丁目　㊤2号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7334738969803,41.848245544842555</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗5丁目　㊤3号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7313656806946,41.848645146864456</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗5丁目　㊤4号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73421955108645,41.849292496842786</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗5丁目　㊤5号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73309838771823,41.85025152180653</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗5丁目　㊤6号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73078095912936,41.85012365264208</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗5丁目　㊤7号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73185384273532,41.851761956969476</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗5丁目　㊤8号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73628485202792,41.85110264441956</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤1号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74639678001407,41.85458693440649</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤2号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73540508747104,41.83253521177061</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤3号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73330223560336,41.83300685767079</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤4号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73121011257174,41.831863709916504</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤5号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73144078254703,41.83405805594327</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤6号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7336348295212,41.83580868242934</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤7号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73411226272586,41.83455766884141</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤8号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73573768138888,41.83479748164728</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤9号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7360810041428,41.83655208467176</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤10号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73543727397922,41.837671168537895</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤11号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73303401470187,41.83806683993656</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤12号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7333827018738,41.837595231322986</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤13号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73194503784183,41.83782304269738</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤14号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7312208414078,41.836787893256506</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤15号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7313120365143,41.83858640472459</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤16号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73192894458774,41.83976540148142</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤17号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73367238044742,41.84128807362437</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤18号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73411226272586,41.840524743824496</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤19号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73674619197848,41.839357750822316</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤20号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73665499687198,41.84971207203353</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤21号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73881149291995,41.850211562720105</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤22号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7426202297211,41.851098648565205</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤23号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72145223617557,41.847997790335405</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤24号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71874320507052,41.84750627452169</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤25号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7224500179291,41.84288664056092</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤26号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72049736976626,41.84939239594733</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤27号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7362473011017,41.839761404918924</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤28号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7351475954056,41.829677283047495</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤29号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73498129844668,41.83068856472101</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤30号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73232591152194,41.83147599432859</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤31号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7317250967026,41.83505727783963</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗町　㊤32号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73677837848666,41.83589261537302</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤1号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72179555892947,41.82647145452389</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤2号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72056174278262,41.82834620416051</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤3号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7214576005936,41.828614021055564</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤4号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72039008140567,41.83001304632335</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤5号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72369992733005,41.83004902085559</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤6号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7242524623871,41.82865399363038</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤7号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72362482547763,41.82716699704207</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤8号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7238179445267,41.82617964420575</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤9号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72506785392764,41.824820510132064</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤10号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72766423225406,41.82648344670029</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤11号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72602808475497,41.82633554303435</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤12号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72527170181277,41.827194978479525</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤13号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7266610860825,41.8272349519404</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤14号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7266074419022,41.82945343988521</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤15号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7265001535416,41.831020325584205</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤16号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7258349657059,41.8316958333523</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤17号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71601271629336,41.842199261672384</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤18号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71830332279208,41.841939494472214</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤19号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7206100225449,41.84262287976751</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤20号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71939229965213,41.84544426459143</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤21号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71558356285098,41.84675500728173</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤22号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71206450462344,41.84591581535921</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤23号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.706582069397,41.844137491336966</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤24号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72310984134677,41.823289451016336</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤25号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72489082813266,41.82173836685237</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤26号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72277724742892,41.82064299096691</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤27号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72065830230716,41.82130261737589</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤28号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72056710720065,41.82279374779137</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤29号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.70830404758456,41.84310244403774</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤30号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7220906019211,41.82456866741474</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤31号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72732090950015,41.82214612973178</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤32号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72607636451724,41.81971150695039</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤33号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72469770908359,41.81875202426931</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤34号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72353899478915,41.81794045061266</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤35号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7228094339371,41.81919578679619</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤36号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72063684463504,41.819631550609365</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤37号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7196229696274,41.818484166120705</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤38号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71774542331698,41.821622433794936</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤39号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71971952915194,41.82348133510537</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤40号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71181237697604,41.8239770330072</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤41号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7146501541138,41.82498440724138</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤42号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7171875238419,41.84472893941895</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤43号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72568476200107,41.82093482651929</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤44号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.72030961513522,41.81662112173394</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤45号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.717386007309,41.81926774799725</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤46号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71573913097384,41.82059501787213</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤47号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7079339027405,41.83319871263581</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤48号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71006894111636,41.83418196030568</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤49号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71675300598147,41.82894179543223</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤50号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71598052978518,41.831380064336166</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤51号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71759521961215,41.84715461861403</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤52号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71637213230136,41.847478301963434</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤53号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7137328386307,41.84631543193324</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤54号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71900069713595,41.8435060745128</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         西桔梗町　㊤55号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.71800827980044,41.825452111319564</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤1号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73720216751101,41.8242928385401</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤2号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7349276542664,41.82551207313379</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤3号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73191821575168,41.82569995312134</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤4号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7374328374863,41.82663534740695</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤5号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73888659477237,41.82754274675294</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤6号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74205696582797,41.82992111131576</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤7号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74444949626925,41.831815745228816</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤8号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74603199958804,41.833030839572864</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤9号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74716925621036,41.83387419741511</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤10号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74790954589847,41.8356608003084</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤11号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7486552000046,41.836628023124405</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤12号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7464933395386,41.838078829940756</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤13号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7431620359421,41.84066861820043</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤14号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74191212654117,41.84171969063294</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤15号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7502055168152,41.83482146287844</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤16号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7523620128632,41.83388219127515</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤17号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7447284460068,41.8396614907757</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤18号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74251830577853,41.834989331245</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤19号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7467079162598,41.833030839572864</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤20号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73567867279056,41.83361039947392</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤21号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7403510808945,41.82637551703182</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤22号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74329078197482,41.82669930549141</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤23号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7446372509003,41.83110826191028</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤24号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73845744132998,41.82460064749726</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤25号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74079096317294,41.825472098597196</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤26号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74086070060733,41.82357727693427</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤27号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75080633163455,41.832886948025624</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤28号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7403510808945,41.82222208527536</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤29号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74034035205844,41.83231137860198</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤30号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74314594268802,41.824072974093305</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤31号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74235737323764,41.8319636362338</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤32号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7413595914841,41.83308679730942</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤33号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74516296386722,41.8354169939035</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤34号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.745844244957,41.836687974470735</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤35号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74013113975528,41.842926604222654</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤36号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7409465312958,41.836452165517834</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤38号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73841989040378,41.83673993225882</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤39号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73829114437106,41.83860638790142</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤40号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7405871152878,41.83774310897415</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤41号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.73908507823947,41.83953759702143</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         北美原1丁目　㊤1号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74936866760257,41.82544811386328</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         北美原1丁目　㊤2号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74790418148044,41.8273308881446</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         北美原1丁目　㊤3号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7448518276215,41.82767865567972</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         北美原1丁目　㊤4号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74396669864657,41.82926157369456</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         北美原1丁目　㊤5号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74570477008822,41.8302648676245</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         北美原1丁目　㊤6号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74729800224307,41.826035737257804</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         北美原1丁目　㊤7号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74947595596316,41.82703108702909</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         北美原2丁目　㊤2号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74855864048007,41.82807039156022</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         北美原2丁目　㊤3号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.74730873107913,41.829781209963926</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         北美原3丁目　㊤1号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75292527675632,41.828685971672265</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         北美原3丁目　㊤2号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7491755485535,41.83104830533744</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         北美原3丁目　㊤3号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75170755386355,41.83035680213841</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         北美原3丁目　㊤4号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75156807899478,41.83191567162097</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         北美原3丁目　㊤5号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7544004917145,41.83201959490335</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         北美原3丁目　㊤6号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.755387544632,41.830316830626835</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         北美原3丁目　㊤7号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75338125228885,41.82978520714966</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         北美原3丁目　㊤8号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7540732622147,41.83268310111334</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         北美原2丁目　㊤1号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.75257122516635,41.82742282687206</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         桔梗3丁目　㊤1号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7252269984383,41.84273699869582</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<description><![CDATA[         石川町　㊤37号         ]]></description>
+<styleUrl>#PolyStyle1</styleUrl>
+<Point>
+<coordinates>140.7375305891401,41.83475573646552</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
