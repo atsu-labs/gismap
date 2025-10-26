@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>函館市受援用サイト</title>
     
     <!-- Leaflet CSS -->
@@ -39,27 +39,39 @@
             background: rgba(255,255,255,0.95);
             box-shadow: 0 1px 4px rgba(0,0,0,0.08);
             z-index: 1100;
+            /* モバイルでのタッチイベントを適切に処理 */
+            touch-action: manipulation;
+            pointer-events: auto;
         }
 
         .site-header .title-wrap {
             flex: 1;
+            min-width: 0; /* flex要素のオーバーフロー防止 */
+            margin-right: 8px;
         }
 
         .site-header .title-wrap h1 {
             margin: 0;
             font-size: 18px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
 
         .site-header .title-wrap p {
             margin: 0;
             font-size: 12px;
             color: #666;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
 
         #map {
             width: 100%;
             height: calc(100vh - var(--header-height));
             margin-top: var(--header-height);
+            touch-action: pan-x pan-y; /* 地図のパンは許可、ダブルタップズームは制限 */
         }
         
         /* トグルボタン（モバイルのみ表示） */
@@ -74,6 +86,8 @@
             font-weight: normal;
             white-space: nowrap;
             box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            flex-shrink: 0; /* ボタンが縮小しないようにする */
+            touch-action: manipulation; /* ダブルタップズーム防止 */
         }
         
         .toggle-button:hover {
@@ -140,16 +154,22 @@
         
         /* モバイル用のスタイル */
         @media (max-width: 768px) {
+            .site-header {
+                padding: 0 12px; /* モバイルではパディングを少し減らす */
+            }
+            
             .site-header .title-wrap h1 {
-                font-size: 16px;
+                font-size: 15px;
             }
             
             .site-header .title-wrap p {
-                font-size: 11px;
+                font-size: 10px;
             }
             
             .toggle-button {
                 display: block;
+                padding: 6px 10px; /* モバイルではパディングを調整 */
+                font-size: 13px;
             }
             
             .control-panel {
@@ -263,6 +283,10 @@
         function checkScreenSize() {
             if (window.innerWidth > 768) {
                 controlPanel.classList.remove('hidden');
+                toggleButton.textContent = '地図詳細';
+            } else {
+                // モバイルサイズでは初期状態で隠す
+                controlPanel.classList.add('hidden');
                 toggleButton.textContent = '地図詳細';
             }
         }
