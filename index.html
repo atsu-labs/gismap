@@ -34,10 +34,15 @@
             height: var(--header-height);
             display: flex;
             align-items: center;
+            justify-content: space-between;
             padding: 0 16px;
             background: rgba(255,255,255,0.95);
             box-shadow: 0 1px 4px rgba(0,0,0,0.08);
             z-index: 1100;
+        }
+
+        .site-header .title-wrap {
+            flex: 1;
         }
 
         .site-header .title-wrap h1 {
@@ -60,18 +65,15 @@
         /* トグルボタン（モバイルのみ表示） */
         .toggle-button {
             display: none;
-            position: absolute;
-            top: calc(var(--header-height) + 10px);
-            right: 10px;
             background: white;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 5px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-            z-index: 1001;
+            border: 1px solid #ddd;
+            padding: 8px 12px;
+            border-radius: 4px;
             cursor: pointer;
-            font-size: 16px;
-            font-weight: bold;
+            font-size: 14px;
+            font-weight: normal;
+            white-space: nowrap;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         }
         
         .toggle-button:hover {
@@ -138,6 +140,14 @@
         
         /* モバイル用のスタイル */
         @media (max-width: 768px) {
+            .site-header .title-wrap h1 {
+                font-size: 16px;
+            }
+            
+            .site-header .title-wrap p {
+                font-size: 11px;
+            }
+            
             .toggle-button {
                 display: block;
             }
@@ -165,11 +175,10 @@
             <h1>函館市受援用サイト</h1>
             <p>防災情報・受援拠点マップ</p>
         </div>
+        <!-- モバイル用トグルボタン -->
+        <button class="toggle-button" id="toggleButton">地図詳細</button>
     </div>
     <div id="map"></div>
-    
-    <!-- モバイル用トグルボタン -->
-    <button class="toggle-button" id="toggleButton">📍 地図設定</button>
     
     <div class="control-panel hidden" id="controlPanel">
         <h3>地図設定</h3>
@@ -244,7 +253,7 @@
             
             // ボタンのテキストを変更
             if (controlPanel.classList.contains('hidden')) {
-                toggleButton.textContent = '📍 地図設定';
+                toggleButton.textContent = '地図詳細';
             } else {
                 toggleButton.textContent = '✕ 閉じる';
             }
@@ -254,7 +263,7 @@
         function checkScreenSize() {
             if (window.innerWidth > 768) {
                 controlPanel.classList.remove('hidden');
-                toggleButton.textContent = '📍 地図設定';
+                toggleButton.textContent = '地図詳細';
             }
         }
         
