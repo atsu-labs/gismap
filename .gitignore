@@ -15,3 +15,6 @@ Thumbs.db
 
 # Scripts
 merge_kml.py
+
+# Backup files
+*-original.html

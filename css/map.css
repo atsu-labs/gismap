@@ -1,0 +1,250 @@
+/* 地図ページのスタイル */
+
+:root {
+    --header-height: 64px; /* ヘッダーの高さ（必要に応じて調整） */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* ヘッダー領域を固定表示し、地図はヘッダー分だけ下に余白を取る */
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    background: rgba(255,255,255,0.95);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    z-index: 1100;
+    /* モバイルでのタッチイベントを適切に処理 */
+    touch-action: manipulation;
+    pointer-events: auto;
+}
+
+.site-header .title-wrap {
+    flex: 1;
+    min-width: 0; /* flex要素のオーバーフロー防止 */
+    margin-right: 8px;
+}
+
+.site-header .title-wrap h1 {
+    margin: 0;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.site-header .title-wrap p {
+    margin: 0;
+    font-size: 12px;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#map {
+    width: 100%;
+    height: calc(100vh - var(--header-height));
+    margin-top: var(--header-height);
+    touch-action: pan-x pan-y; /* 地図のパンは許可、ダブルタップズームは制限 */
+}
+
+/* トグルボタン（モバイルのみ表示） */
+.toggle-button {
+    display: none;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: normal;
+    white-space: nowrap;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    flex-shrink: 0; /* ボタンが縮小しないようにする */
+    touch-action: manipulation; /* ダブルタップズーム防止 */
+}
+
+.toggle-button:hover {
+    background: #f0f0f0;
+}
+
+/* Material Symbols をマーカー内で表示するためのスタイル */
+.material-marker {
+    display: inline-block;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    font-size: 16px;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+.control-panel {
+    position: absolute;
+    top: calc(var(--header-height) + 10px);
+    right: 10px;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    z-index: 1000;
+    min-width: 250px;
+    max-width: 90vw;
+    max-height: 90vh;
+    overflow-y: auto;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.control-panel h3 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.control-section {
+    margin: 15px 0;
+}
+
+.control-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.control-section input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.control-section input[type="range"] {
+    width: 100%;
+}
+
+.opacity-value {
+    text-align: right;
+    font-size: 12px;
+    color: #666;
+}
+
+/* モバイル用のスタイル */
+@media (max-width: 768px) {
+    .site-header {
+        padding: 0 12px; /* モバイルではパディングを少し減らす */
+    }
+    
+    .site-header .title-wrap h1 {
+        font-size: 15px;
+    }
+    
+    .site-header .title-wrap p {
+        font-size: 10px;
+    }
+    
+    .toggle-button {
+        display: block;
+        padding: 6px 10px; /* モバイルではパディングを調整 */
+        font-size: 13px;
+    }
+    
+    .control-panel {
+        top: calc(var(--header-height) + 10px);
+        right: 10px;
+        left: 10px;
+        min-width: auto;
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+    .control-panel.hidden {
+        transform: translateX(calc(100% + 20px));
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+/* 折り畳み（コラプシブル）用スタイル (全サイズで有効にする) */
+.collapsible {
+    margin-bottom: 8px;
+}
+
+.collapsible-header {
+    width: 100%;
+    background: #f8f9ff; /* デフォルトの薄い背景色 */
+    border: 1px solid #e6e9f0;
+    padding: 8px 10px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+    color: #1f2d5a;
+}
+
+.collapsible-header:hover {
+    background: #eef4ff;
+}
+
+/* セクションごとのカラーカスタム（必要に応じて調整） */
+#coll-mapSettings > .collapsible-header {
+    background: linear-gradient(180deg, #eef6ff 0%, #f7fbff 100%);
+    border-color: #d7e6ff;
+    color: #0b3d91;
+}
+
+#coll-mapSettings > .collapsible-header:hover {
+    background: linear-gradient(180deg, #e6f0ff 0%, #f2f9ff 100%);
+}
+
+#coll-kmlSettings > .collapsible-header {
+    background: linear-gradient(180deg, #f0fff4 0%, #fbfff9 100%);
+    border-color: #dff9e6;
+    color: #177a3f;
+}
+
+#coll-kmlSettings > .collapsible-header:hover {
+    background: linear-gradient(180deg, #e6ffea 0%, #f8fff2 100%);
+}
+
+.collapsible-header:focus {
+    outline: 2px solid rgba(59,130,246,0.6);
+    border-radius: 4px;
+}
+
+.collapsible-content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.25s ease, padding 0.25s ease;
+}
+
+/* open クラスが付くと展開 */
+.collapsible.open .collapsible-content {
+    max-height: 60vh; /* 大きなリストでも収まるように制限 */
+    padding-top: 8px;
+}
+
+.collapsible .chev {
+    font-size: 14px;
+    color: currentColor; /* 親の色に合わせる */
+    margin-left: 8px;
+    transition: transform 0.2s ease;
+    transform-origin: center;
+}
+
+.collapsible.open .chev {
+    transform: rotate(90deg);
+}
