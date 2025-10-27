@@ -425,7 +425,7 @@
             if (!coordsElement) return null;
             const coordsText = coordsElement.textContent.trim();
             // coordinates は複数座標を持つ場合があるが、ここでは先頭の座標を使用
-            const first = coordsText.split(/\s+/)[0];
+            const first = coordsText.trim().split(/\s+/)[0];
             const parts = first.split(',');
             if (parts.length >= 2) {
                 return {
