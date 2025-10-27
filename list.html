@@ -339,7 +339,6 @@
                 const contentEl = document.getElementById(`content-${cssId(fileName)}`);
                 try {
                     let res = await fetchWithTimeout(url, { timeout: 10000 });
-                    if (!res) throw new Error('fetch failed');
 
                     // 304 はキャッシュによる未更新応答なのでエラー扱いにしない
                     if (res.status === 304) {
