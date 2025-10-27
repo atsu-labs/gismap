@@ -45,16 +45,23 @@ Leaflet を使用した地図表示サイト
 ### KML ファイルの追加方法
 
 1. `kml/`ディレクトリに KML ファイルを配置
-2. `index.html`の`kmlFiles`配列に新しいファイルパスを追加:
+2. `js/kml-loader.js`の`kmlGroups`オブジェクトに新しいファイルパスを追加:
    ```javascript
-   const kmlFiles = [
-     "kml/baseAir.kml",
-     "kml/baseGround.kml",
-     // ...既存のファイル
-     "kml/your-file.kml", // 新しいファイルを追加
-   ];
+   const kmlGroups = {
+     support: {
+       title: '受援情報',
+       files: [
+         'kml/拠点【航空部隊】.kml',
+         'kml/拠点【地上部隊】.kml',
+         // ...既存のファイル
+         'kml/your-file.kml', // 新しいファイルを追加
+       ],
+       // ...
+     }
+   };
    ```
-3. ブラウザで再読み込みすると自動的に読み込まれ、個別のチェックボックスで制御できます
+3. アイコンと色をカスタマイズする場合は、同じファイル内の`iconNameMap`と`iconColorMap`を編集
+4. ブラウザで再読み込みすると自動的に読み込まれ、個別のチェックボックスで制御できます
 
 ## データソース
 
@@ -66,7 +73,37 @@ Leaflet を使用した地図表示サイト
 
 - Leaflet 1.9.4
 - Leaflet-omnivore 0.3.4 (KML/GPX/CSV/GeoJSON パーサー)
-- HTML5/CSS3/JavaScript
+- HTML5/CSS3/JavaScript (ES6 Modules)
+
+## プロジェクト構造
+
+```
+gismap/
+├── index.html              # トップページ
+├── map.html                # 地図表示ページ
+├── list.html               # 拠点一覧ページ
+├── css/                    # スタイルシート
+│   ├── common.css          # 共通スタイル
+│   ├── map.css             # 地図ページ用スタイル
+│   └── list.css            # 一覧ページ用スタイル
+├── js/                     # JavaScriptモジュール
+│   ├── map.js              # 地図初期化とメイン処理
+│   ├── ui-controls.js      # UI制御（トグルボタン、折り畳み等）
+│   ├── kml-loader.js       # KMLファイル読み込み処理
+│   ├── kml-parser.js       # KMLパース共通ユーティリティ
+│   └── list.js             # 一覧ページのメイン処理
+└── kml/                    # KMLファイル格納ディレクトリ
+    ├── 拠点【航空部隊】.kml
+    ├── 拠点【地上部隊】.kml
+    └── ...
+```
+
+## コードの特徴
+
+- **モジュール化**: 機能ごとにJavaScriptファイルを分離し、ES6モジュールシステムを採用
+- **保守性**: 関数を単一責任原則に従って分割し、コメントを日本語で記述
+- **可読性**: 定数を明示的に定義し、マジックナンバーを排除
+- **再利用性**: KMLパーサーなど共通機能を独立したモジュールとして抽出
 
 ## 動作確認 (ローカル)
 
@@ -93,4 +130,23 @@ Leaflet を使用した地図表示サイト
 
 4. 変更を加えた場合はブラウザのキャッシュをクリアして再読み込みしてください（Shift+Reload が便利です）。
 
-5. さらにアイコン名のマッピングを追加・変更したい場合は、`index.html` 内の `iconNameMap` オブジェクトを編集してください。
+5. さらにアイコン名のマッピングを追加・変更したい場合は、`js/kml-loader.js` 内の `iconNameMap` および `iconColorMap` オブジェクトを編集してください。
+
+## 開発ガイドライン
+
+### コードスタイル
+
+- コメントは日本語で記述
+- 関数には JSDoc コメントを付ける
+- 定数は大文字のスネークケースで定義（例：`HAKODATE_CENTER`）
+- インデントは 4 スペース
+
+### モジュール構成
+
+各JavaScriptモジュールは以下の責務を持ちます：
+
+- `map.js`: 地図の初期化、ベースマップ・オーバーレイレイヤーの管理
+- `ui-controls.js`: UI制御（トグルボタン、折り畳みセクション等）
+- `kml-loader.js`: KMLファイルの読み込みとマーカー生成
+- `kml-parser.js`: KML解析の共通ユーティリティ
+- `list.js`: 一覧ページのメイン処理とKMLデータ表示
