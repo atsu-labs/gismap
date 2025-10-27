@@ -152,8 +152,8 @@
             color: #666;
         }
         
-        /* モバイル用のスタイル */
-        @media (max-width: 768px) {
+    /* モバイル用のスタイル */
+    @media (max-width: 768px) {
             .site-header {
                 padding: 0 12px; /* モバイルではパディングを少し減らす */
             }
@@ -187,6 +187,80 @@
                 pointer-events: none;
             }
         }
+
+        /* 折り畳み（コラプシブル）用スタイル (全サイズで有効にする) */
+        .collapsible {
+            margin-bottom: 8px;
+        }
+
+        .collapsible-header {
+            width: 100%;
+            background: #f8f9ff; /* デフォルトの薄い背景色 */
+            border: 1px solid #e6e9f0;
+            padding: 8px 10px;
+            font-size: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            border-radius: 6px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+            color: #1f2d5a;
+        }
+
+        .collapsible-header:hover {
+            background: #eef4ff;
+        }
+
+        /* セクションごとのカラーカスタム（必要に応じて調整） */
+        #coll-mapSettings > .collapsible-header {
+            background: linear-gradient(180deg, #eef6ff 0%, #f7fbff 100%);
+            border-color: #d7e6ff;
+            color: #0b3d91;
+        }
+
+        #coll-mapSettings > .collapsible-header:hover {
+            background: linear-gradient(180deg, #e6f0ff 0%, #f2f9ff 100%);
+        }
+
+        #coll-kmlSettings > .collapsible-header {
+            background: linear-gradient(180deg, #f0fff4 0%, #fbfff9 100%);
+            border-color: #dff9e6;
+            color: #177a3f;
+        }
+
+        #coll-kmlSettings > .collapsible-header:hover {
+            background: linear-gradient(180deg, #e6ffea 0%, #f8fff2 100%);
+        }
+
+        .collapsible-header:focus {
+            outline: 2px solid rgba(59,130,246,0.6);
+            border-radius: 4px;
+        }
+
+        .collapsible-content {
+            overflow: hidden;
+            max-height: 0;
+            transition: max-height 0.25s ease, padding 0.25s ease;
+        }
+
+        /* open クラスが付くと展開 */
+        .collapsible.open .collapsible-content {
+            max-height: 60vh; /* 大きなリストでも収まるように制限 */
+            padding-top: 8px;
+        }
+
+        .collapsible .chev {
+            font-size: 14px;
+            color: currentColor; /* 親の色に合わせる */
+            margin-left: 8px;
+            transition: transform 0.2s ease;
+            transform-origin: center;
+        }
+
+        .collapsible.open .chev {
+            transform: rotate(90deg);
+        }
     </style>
 </head>
 <body>
@@ -201,58 +275,73 @@
     <div id="map"></div>
     
     <div class="control-panel hidden" id="controlPanel">
-        <h3>地図設定</h3>
-        
-        <div class="control-section">
-            <label>ベースマップ:</label>
-            <label>
-                <input type="radio" name="basemap" value="osm" checked>
-                OpenStreetMap
-            </label>
-            <label>
-                <input type="radio" name="basemap" value="gsi">
-                国土地理院地図
-            </label>
+        <!-- 地図設定セクション（折り畳み可能） -->
+        <div class="collapsible" id="coll-mapSettings">
+            <button class="collapsible-header" type="button" aria-expanded="true" aria-controls="mapSettingsContent">
+                <span>地図設定</span>
+                <span class="chev">▾</span>
+            </button>
+            <div class="collapsible-content" id="mapSettingsContent">
+                <div class="control-section">
+                    <label>ベースマップ:</label>
+                    <label>
+                        <input type="radio" name="basemap" value="osm" checked>
+                        OpenStreetMap
+                    </label>
+                    <label>
+                        <input type="radio" name="basemap" value="gsi">
+                        国土地理院地図
+                    </label>
+                </div>
+
+                <div class="control-section">
+                    <label>
+                        <input type="checkbox" id="tsunamiToggle" checked>
+                        津波ハザードマップ表示
+                    </label>
+                </div>
+
+                <div class="control-section">
+                    <label>
+                        <input type="checkbox" id="dosekiToggle">
+                        土石流警戒区域表示
+                    </label>
+                </div>
+
+                <div class="control-section">
+                    <label>
+                        <input type="checkbox" id="kyukeishaToggle">
+                        急傾斜地警戒区域表示
+                    </label>
+                </div>
+
+                <div class="control-section">
+                    <label>
+                        <input type="checkbox" id="jisuberiToggle">
+                        地すべり警戒区域表示
+                    </label>
+                </div>
+
+                <div class="control-section">
+                    <label for="opacitySlider">透過率:</label>
+                    <input type="range" id="opacitySlider" min="0" max="100" value="70">
+                    <div class="opacity-value" id="opacityValue">70%</div>
+                </div>
+            </div>
         </div>
-        
-        <div class="control-section">
-            <label>
-                <input type="checkbox" id="tsunamiToggle" checked>
-                津波ハザードマップ表示
-            </label>
-        </div>
-        
-        <div class="control-section">
-            <label>
-                <input type="checkbox" id="dosekiToggle">
-                土石流警戒区域表示
-            </label>
-        </div>
-        
-        <div class="control-section">
-            <label>
-                <input type="checkbox" id="kyukeishaToggle">
-                急傾斜地警戒区域表示
-            </label>
-        </div>
-        
-        <div class="control-section">
-            <label>
-                <input type="checkbox" id="jisuberiToggle">
-                地すべり警戒区域表示
-            </label>
-        </div>
-    
-        <div class="control-section">
-            <label for="opacitySlider">透過率:</label>
-            <input type="range" id="opacitySlider" min="0" max="100" value="70">
-            <div class="opacity-value" id="opacityValue">70%</div>
-        </div>
-    
-        <div class="control-section">
-            <label>KMLレイヤー:</label>
-            <div id="kmlFileList" style="margin-left: 20px; margin-top: 5px;">
-                <small style="color: #666;">読み込み中...</small>
+
+        <!-- KML レイヤーセクション（折り畳み可能） -->
+        <div class="collapsible" id="coll-kmlSettings">
+            <button class="collapsible-header" type="button" aria-expanded="false" aria-controls="kmlSettingsContent">
+                <span>KMLレイヤー</span>
+                <span class="chev">▸</span>
+            </button>
+            <div class="collapsible-content" id="kmlSettingsContent">
+                <div class="control-section">
+                    <div id="kmlFileList" style="margin-left: 0; margin-top: 5px;">
+                        <small style="color: #666;">読み込み中...</small>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -264,13 +353,49 @@
     
     <!-- トグルボタンの初期化（Leafletより先に実行） -->
     <script>
-        // トグルボタンの機能（モバイル用）
+        // トグルボタンの機能（モバイル用）および折り畳み初期化
         const toggleButton = document.getElementById('toggleButton');
         const controlPanel = document.getElementById('controlPanel');
-        
+
+        // 折り畳みの状態を設定するユーティリティ
+        function setCollapsibleState(key, open) {
+            const coll = document.getElementById('coll-' + key);
+            if (!coll) return;
+            const header = coll.querySelector('.collapsible-header');
+            const chevron = header.querySelector('.chev');
+            if (open) {
+                coll.classList.add('open');
+                header.setAttribute('aria-expanded', 'true');
+                if (chevron) chevron.textContent = '▾';
+            } else {
+                coll.classList.remove('open');
+                header.setAttribute('aria-expanded', 'false');
+                if (chevron) chevron.textContent = '▸';
+            }
+        }
+
+        // 各折り畳みヘッダにクリック/キー操作を追加
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.collapsible-header').forEach(header => {
+                header.addEventListener('click', () => {
+                    const parent = header.parentNode;
+                    const open = !parent.classList.contains('open');
+                    const key = parent.id.replace('coll-', '');
+                    setCollapsibleState(key, open);
+                });
+
+                header.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        header.click();
+                    }
+                });
+            });
+        });
+
         toggleButton.addEventListener('click', () => {
             controlPanel.classList.toggle('hidden');
-            
+
             // ボタンのテキストを変更
             if (controlPanel.classList.contains('hidden')) {
                 toggleButton.textContent = '地図詳細';
@@ -278,22 +403,30 @@
                 toggleButton.textContent = '✕ 閉じる';
             }
         });
-        
-        // デスクトップサイズでは常にパネルを表示
+
+        // 画面サイズに応じてコントロールパネルと折り畳みの初期状態を設定
         function checkScreenSize() {
             if (window.innerWidth > 768) {
                 controlPanel.classList.remove('hidden');
                 toggleButton.textContent = '地図詳細';
+                // デスクトップでは両方展開
+                setCollapsibleState('mapSettings', true);
+                setCollapsibleState('kmlSettings', true);
             } else {
-                // モバイルサイズでは初期状態で隠す
+                // モバイルではコントロールは隠し、両方を折り畳む
                 controlPanel.classList.add('hidden');
                 toggleButton.textContent = '地図詳細';
+                setCollapsibleState('mapSettings', false);
+                setCollapsibleState('kmlSettings', false);
             }
         }
-        
+
         // 画面サイズ変更時にチェック
         window.addEventListener('resize', checkScreenSize);
-        checkScreenSize();
+        // DOMContentLoaded で折り畳みの初期化とチェックを実行
+        document.addEventListener('DOMContentLoaded', () => {
+            checkScreenSize();
+        });
     </script>
     
     <script>
@@ -492,7 +625,8 @@
                     'kml/給油【地上部隊】.kml'
                 ],
                 layerRefs: [],
-                visibleByUser: false
+                // 初期表示で受援情報は表示しておく
+                visibleByUser: true
             }
         };
         
@@ -620,8 +754,8 @@
                             console.error(`KMLファイル読み込みエラー: ${fileName}`, e);
                         });
 
-                    // レイヤー情報を保存
-                    kmlLayers.push({ layer: kmlLayer, name: fileName, visible: false, group: groupKey });
+                    // レイヤー情報を保存（visible をグループの初期設定に合わせる）
+                    kmlLayers.push({ layer: kmlLayer, name: fileName, visible: group.visibleByUser, group: groupKey });
                     group.layerRefs.push(kmlLayer);
 
                     // チェックボックス（個別）
@@ -634,6 +768,8 @@
                     checkbox.type = 'checkbox';
                     checkbox.id = `kml-${globalIndex}`;
                     checkbox.style.marginRight = '6px';
+                    // 初期チェック状態は kmlLayers の visible に合わせる
+                    checkbox.checked = kmlLayers[globalIndex].visible;
 
                     // 色インジケーター
                     const colorIndicator = document.createElement('span');
