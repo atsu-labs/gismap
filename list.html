@@ -234,23 +234,18 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>📍 KMLファイルパーサー</h1>
-            <p>KMLファイルのURLを入力して内容を表示</p>
+            <h1>災害受援拠点一覧</h1>
+            <p>拠点の一覧を表示</p>
         </div>
         
         <div class="input-section">
-            <div class="url-input-wrapper">
-                <input 
-                    type="text" 
-                    id="urlInput" 
-                    placeholder="KMLファイルのURLを入力してください (例: https://example.com/file.kml)"
-                />
-                <button class="load-button" id="loadButton">読み込み</button>
+            <div style="margin-top:16px; display:flex; gap:10px;">
+                <button class="load-button" id="refreshButton" style="background:#5a5a5a">リスト更新</button>
             </div>
-            
-            <div class="example-urls">
-                <h3>📌 サンプルURL（クリックで入力）:</h3>
-                <a class="example-link" data-url="https://developers.google.com/kml/documentation/KML_Samples.kml">Google KML サンプル</a>
+
+            <div class="example-urls" style="margin-top:12px;">
+                <h3>拠点一覧</h3>
+                <div id="fileList"></div>
             </div>
         </div>
         
@@ -263,110 +258,160 @@
     </div>
 
     <script>
-        const urlInput = document.getElementById('urlInput');
-        const loadButton = document.getElementById('loadButton');
+        // kml ディレクトリ内のファイル一覧（リポジトリに存在するファイルを列挙しています）
+        const directoryFiles = [
+            'ヘリ離発着.kml',
+            '前進拠点.kml',
+            '医療機関.kml',
+            '地上式.kml',
+            '地下式.kml',
+            '宿営可能地.kml',
+            '拠点【地上部隊】.kml',
+            '拠点【航空部隊】.kml',
+            '給油【地上部隊】.kml',
+            '給油【航空部隊】.kml',
+            '防火水槽.kml'
+        ];
+
+        // 除外キーワード
+        const excludedKeywords = ['地上式', '地下式', '防火水槽'];
+
         const results = document.getElementById('results');
+        const fileListEl = document.getElementById('fileList');
+        const loadAllButton = document.getElementById('loadAllButton');
+        const refreshButton = document.getElementById('refreshButton');
 
-        // サンプルURLのクリックイベント
-        document.querySelectorAll('.example-link').forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                urlInput.value = e.target.dataset.url;
-            });
-        });
-
-        // Enterキーでも読み込み
-        urlInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') {
-                loadKML();
-            }
-        });
-
-        loadButton.addEventListener('click', loadKML);
-
-        async function loadKML() {
-            const url = urlInput.value.trim();
-            
-            if (!url) {
-                showError('URLを入力してください');
-                return;
-            }
-
-            // 簡単なURL検証
-            try {
-                new URL(url);
-            } catch {
-                showError('有効なURLを入力してください');
-                return;
-            }
-
-            showLoading();
-            loadButton.disabled = true;
-
-            try {
-                const response = await fetch(url);
-                
-                if (!response.ok) {
-                    throw new Error(`HTTP エラー: ${response.status}`);
-                }
-
-                const text = await response.text();
-                parseKML(text);
-            } catch (error) {
-                showError('KMLファイルの読み込みに失敗しました: ' + error.message + '\n\nCORSエラーの場合、サーバー側で適切なCORSヘッダーが設定されている必要があります。');
-            } finally {
-                loadButton.disabled = false;
-            }
+        function buildFileList() {
+            // 除外キーワードを含まないファイルのみを返す
+            return directoryFiles.filter(name => !excludedKeywords.some(k => name.includes(k)));
         }
 
-        function showLoading() {
-            results.innerHTML = `
-                <div class="loading">
-                    <div class="spinner"></div>
-                    <p>読み込み中...</p>
+        function renderFileList() {
+            const files = buildFileList();
+            if (files.length === 0) {
+                fileListEl.innerHTML = '<div>対象のKMLファイルが見つかりません。</div>';
+                return;
+            }
+
+            // ファイルごとにステータスと折り畳み領域を準備
+            fileListEl.innerHTML = files.map(f => `
+                <div class="file-section" id="file-${cssId(f)}" style="margin-bottom:10px; border-radius:6px;">
+                    <div class="file-header" id="header-${cssId(f)}" style="padding:8px 12px; background:#fff; border:1px solid #e6e6e6; display:flex; justify-content:space-between; align-items:center; cursor:pointer;">
+                        <div style="font-weight:600">${escapeHtml(f)}</div>
+                        <div id="status-${cssId(f)}" style="font-size:0.9em; color:#666">未読み込み</div>
+                    </div>
+                    <div class="file-content" id="content-${cssId(f)}" style="display:none; padding:12px; background:#fbfbfb; border:1px solid #efefef; border-top:none;"></div>
+                </div>
+            `).join('');
+
+            // 折り畳みはイベントデリゲーションで処理します（個別リスナーの上書きを防ぐため）
+        }
+
+        async function loadAndParseFiles(files) {
+            showLoading();
+
+            // 初期ステータス表示
+            fileListEl.innerHTML = files.map(f => `
+                <div class="file-section" id="file-${cssId(f)}" style="margin-bottom:10px; border-radius:6px;">
+                    <div class="file-header" id="header-${cssId(f)}" style="padding:8px 12px; background:#fff; border:1px solid #e6e6e6; display:flex; justify-content:space-between; align-items:center; cursor:pointer;">
+                        <div style="font-weight:600">${escapeHtml(f)}</div>
+                        <div id="status-${cssId(f)}" style="font-size:0.9em; color:#666">読み込み中…</div>
+                    </div>
+                    <div class="file-content" id="content-${cssId(f)}" style="display:none; padding:12px; background:#fbfbfb; border:1px solid #efefef; border-top:none;"></div>
+                </div>
+            `).join('');
+
+            // 折り畳みはイベントデリゲーションで処理します（innerHTML を上書きしても問題にならない）
+
+            // fetch にタイムアウトを追加して無限待ちを防ぐ
+            // options は fetch に渡すオプション（cache など）を透過します
+            const fetchWithTimeout = (resource, options = {}) => {
+                const { timeout = 10000, ...fetchOptions } = options;
+                const controller = new AbortController();
+                fetchOptions.signal = controller.signal;
+                const id = setTimeout(() => controller.abort(), timeout);
+                return fetch(resource, fetchOptions).finally(() => clearTimeout(id));
+            };
+
+            for (const fileName of files) {
+                const url = `./kml/${encodeURIComponent(fileName)}`;
+                const statusEl = document.getElementById(`status-${cssId(fileName)}`);
+                const contentEl = document.getElementById(`content-${cssId(fileName)}`);
+                try {
+                    let res = await fetchWithTimeout(url, { timeout: 10000 });
+
+                    // 304 はキャッシュによる未更新応答なのでエラー扱いにしない
+                    if (res.status === 304) {
+                        // キャッシュ優先で再取得してボディを得られるか試す
+                        try {
+                            const cached = await fetchWithTimeout(url, { timeout: 10000, cache: 'force-cache' });
+                            if (cached && cached.ok) {
+                                res = cached;
+                            } else {
+                                // 最終手段でキャッシュバスターを使って再取得
+                                res = await fetchWithTimeout(url + (url.includes('?') ? '&' : '?') + `_=${Date.now()}`, { timeout: 10000 });
+                            }
+                        } catch (e) {
+                            // エラー時も処理を継続し、後続のチェックで処理する
+                        }
+                    }
+
+                    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                    const text = await res.text();
+                    const data = parseKMLText(text, fileName);
+                    statusEl.innerText = `読み込み成功 (${data.length} 件)`;
+                    renderFileSection(contentEl, data);
+                } catch (err) {
+                    const msg = err.name === 'AbortError' ? 'タイムアウト' : err.message || String(err);
+                    if (statusEl) statusEl.innerText = `エラー: ${msg}`;
+                    if (contentEl) contentEl.innerHTML = `<div class="error" style="margin:6px 0;">${escapeHtml(msg)}</div>`;
+                    // 続行して次のファイルを処理
+                }
+            }
+
+            // 全体の簡単な統計をトップに表示
+            const allPlacemarks = Array.from(document.querySelectorAll('.placemark-item')).length;
+            const headerStats = `
+                <div class="stats" style="margin-bottom:16px;">
+                    <div class="stat-card" style="display:inline-block; margin-right:12px; padding:10px 14px; border-radius:8px; background:linear-gradient(135deg,#667eea,#764ba2); color:#fff;">
+                        <div class="stat-number">${allPlacemarks}</div>
+                        <div class="stat-label">合計プレイスマーク</div>
+                    </div>
                 </div>
             `;
+            // replace results area with統計ヘッダ（読み込み中スピナーを残さない）
+            results.innerHTML = headerStats;
         }
 
-        function parseKML(kmlText) {
-            try {
-                const parser = new DOMParser();
-                const xmlDoc = parser.parseFromString(kmlText, 'text/xml');
-
-                // パースエラーチェック
-                const parserError = xmlDoc.querySelector('parsererror');
-                if (parserError) {
-                    throw new Error('KMLファイルの解析に失敗しました');
-                }
-
-                // Placemarkを取得
-                const placemarks = xmlDoc.getElementsByTagName('Placemark');
-                
-                if (placemarks.length === 0) {
-                    showError('プレイスマークが見つかりませんでした');
-                    return;
-                }
-
-                displayPlacemarks(placemarks);
-            } catch (error) {
-                showError('KMLの解析中にエラーが発生しました: ' + error.message);
+        // 安定した短いIDをファイル名から作る（HTML id として安全）
+        function cssId(name) {
+            // djb2 ハッシュで一意な数値を作る
+            let h = 5381;
+            for (let i = 0; i < name.length; i++) {
+                h = ((h << 5) + h) + name.charCodeAt(i);
+                h = h & 0xFFFFFFFF; // 32-bit
             }
+            return 'f_' + (h >>> 0).toString(36);
         }
 
-        function displayPlacemarks(placemarks) {
-            const placemarkData = [];
+        function parseKMLText(kmlText, sourceFile) {
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(kmlText, 'text/xml');
+            const parserError = xmlDoc.querySelector('parsererror');
+            if (parserError) throw new Error('KMLの解析エラー');
+
+            const placemarks = xmlDoc.getElementsByTagName('Placemark');
+            const data = [];
 
             for (let i = 0; i < placemarks.length; i++) {
                 const pm = placemarks[i];
-                
                 const name = getElementText(pm, 'name') || `プレイスマーク ${i + 1}`;
                 const description = getElementText(pm, 'description') || '';
                 const coordinates = getCoordinates(pm);
-
-                placemarkData.push({ name, description, coordinates });
+                data.push({ name, description, coordinates, source: sourceFile });
             }
 
-            renderResults(placemarkData);
+            return data;
         }
 
         function getElementText(parent, tagName) {
@@ -377,10 +422,10 @@
         function getCoordinates(placemark) {
             const coordsElement = placemark.getElementsByTagName('coordinates')[0];
             if (!coordsElement) return null;
-
             const coordsText = coordsElement.textContent.trim();
-            const parts = coordsText.split(',');
-
+            // coordinates は複数座標を持つ場合があるが、ここでは先頭の座標を使用
+            const first = coordsText.trim().split(/\s+/)[0];
+            const parts = first.split(',');
             if (parts.length >= 2) {
                 return {
                     longitude: parseFloat(parts[0]),
@@ -388,30 +433,18 @@
                     altitude: parts[2] ? parseFloat(parts[2]) : null
                 };
             }
-
             return null;
         }
 
-        function renderResults(data) {
-            const statsHTML = `
-                <div class="stats">
-                    <div class="stat-card">
-                        <div class="stat-number">${data.length}</div>
-                        <div class="stat-label">プレイスマーク</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">${data.filter(d => d.coordinates).length}</div>
-                        <div class="stat-label">座標あり</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">${data.filter(d => d.description).length}</div>
-                        <div class="stat-label">説明あり</div>
-                    </div>
-                </div>
-            `;
+        function renderFileSection(containerEl, data) {
+            if (!containerEl) return;
+            if (data.length === 0) {
+                containerEl.innerHTML = '<div class="empty-state" style="padding:8px; color:#777">プレイスマークはありません</div>';
+                return;
+            }
 
-            const listHTML = data.map((pm, idx) => `
-                <div class="placemark-item">
+            const html = data.map(pm => `
+                <div class="placemark-item" style="margin-bottom:8px;">
                     <div class="placemark-name">${escapeHtml(pm.name)}</div>
                     ${pm.description ? `<div class="placemark-description">${escapeHtml(pm.description)}</div>` : ''}
                     ${pm.coordinates ? `
@@ -424,7 +457,16 @@
                 </div>
             `).join('');
 
-            results.innerHTML = statsHTML + '<div class="placemark-list">' + listHTML + '</div>';
+            containerEl.innerHTML = html;
+        }
+
+        function showLoading() {
+            results.innerHTML = `
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>読み込み中...</p>
+                </div>
+            `;
         }
 
         function showError(message) {
@@ -436,6 +478,50 @@
             div.textContent = text;
             return div.innerHTML;
         }
+
+        // 初期表示
+        renderFileList();
+
+        // イベントデリゲーション: fileList のクリックを捕まえて、.file-header を起点に折り畳みを切り替える
+        fileListEl.addEventListener('click', (e) => {
+            const header = e.target.closest('.file-header');
+            if (!header) return;
+            // header の id は header-<id>、対応する content の id は content-<id>
+            const headerId = header.id;
+            if (!headerId || !headerId.startsWith('header-')) return;
+            const contentId = 'content-' + headerId.slice('header-'.length);
+            const contentEl = document.getElementById(contentId);
+            if (!contentEl) return;
+            const isHidden = contentEl.style.display === 'none' || contentEl.style.display === '';
+            contentEl.style.display = isHidden ? 'block' : 'none';
+        });
+
+        // 自動読み込み（ページロード時）
+        window.addEventListener('DOMContentLoaded', () => {
+            const files = buildFileList();
+            if (files.length > 0) {
+                loadAndParseFiles(files);
+            } else {
+                results.innerHTML = `<div class="empty-state"><div class="empty-state-icon">🌐</div><p>読み込むファイルがありません。</p></div>`;
+            }
+        });
+
+        // 手動操作
+        loadAllButton.addEventListener('click', () => {
+            const files = buildFileList();
+            if (files.length === 0) {
+                showError('読み込むファイルがありません');
+                return;
+            }
+            loadAndParseFiles(files);
+        });
+
+        refreshButton.addEventListener('click', () => {
+            renderFileList();
+            results.innerHTML = `<div class="empty-state"><div class="empty-state-icon">🌐</div><p>リストを更新しました。自動読み込みを再実行します。</p></div>`;
+            const files = buildFileList();
+            if (files.length > 0) loadAndParseFiles(files);
+        });
     </script>
 </body>
 </html>
