@@ -390,7 +390,7 @@
             let h = 5381;
             for (let i = 0; i < name.length; i++) {
                 h = ((h << 5) + h) + name.charCodeAt(i);
-                h = h & 0xFFFFFFFF; // 32bit
+                h = h & 0xFFFFFFFF; // 32-bit
             }
             return 'f_' + (h >>> 0).toString(36);
         }
