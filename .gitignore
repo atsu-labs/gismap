@@ -12,6 +12,7 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.log
+nohup.out
 
 # Scripts
 merge_kml.py
