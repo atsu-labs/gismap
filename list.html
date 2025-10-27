@@ -353,7 +353,7 @@
                                 res = await fetchWithTimeout(url + (url.includes('?') ? '&' : '?') + `_=${Date.now()}`, { timeout: 10000 });
                             }
                         } catch (e) {
-                            // どのみち proceed and let later check handle it
+                            // エラー時も処理を継続し、後続のチェックで処理する
                         }
                     }
 
