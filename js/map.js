@@ -16,35 +16,39 @@ let mapInstance = null;
  * 地図を初期化
  */
 function initializeMap() {
-    // 地図の初期化（函館市）
-    mapInstance = L.map('map').setView(HAKODATE_CENTER, DEFAULT_ZOOM);
-    
-    // ベースマップレイヤーの作成
-    const { osmLayer, gsiLayer } = createBaseLayers();
-    osmLayer.addTo(mapInstance);
-    
-    // オーバーレイレイヤーの作成
-    const { tsunamiLayer, dosekiLayer, kyukeishaLayer, jisuberiLayer } = createOverlayLayers();
-    tsunamiLayer.addTo(mapInstance);
-    
-    // オーバーレイレイヤーの参照配列を設定
-    overlayLayers = [
-        { layer: tsunamiLayer, toggle: null },
-        { layer: dosekiLayer, toggle: null },
-        { layer: kyukeishaLayer, toggle: null },
-        { layer: jisuberiLayer, toggle: null }
-    ];
-    
-    // イベントリスナーの設定
-    setupBasemapControls(mapInstance, osmLayer, gsiLayer);
-    setupOverlayControls(mapInstance, tsunamiLayer, dosekiLayer, kyukeishaLayer, jisuberiLayer);
-    setupOpacityControl(tsunamiLayer, dosekiLayer, kyukeishaLayer, jisuberiLayer);
-    
-    // UI制御の初期化
+    // UI制御の初期化（地図の初期化より先に実行して、エラーが起きても動作するようにする）
     initializeUIControls();
     
-    // KMLファイルの読み込み
-    loadKMLFiles(mapInstance);
+    try {
+        // 地図の初期化（函館市）
+        mapInstance = L.map('map').setView(HAKODATE_CENTER, DEFAULT_ZOOM);
+        
+        // ベースマップレイヤーの作成
+        const { osmLayer, gsiLayer } = createBaseLayers();
+        osmLayer.addTo(mapInstance);
+        
+        // オーバーレイレイヤーの作成
+        const { tsunamiLayer, dosekiLayer, kyukeishaLayer, jisuberiLayer } = createOverlayLayers();
+        tsunamiLayer.addTo(mapInstance);
+        
+        // オーバーレイレイヤーの参照配列を設定
+        overlayLayers = [
+            { layer: tsunamiLayer, toggle: null },
+            { layer: dosekiLayer, toggle: null },
+            { layer: kyukeishaLayer, toggle: null },
+            { layer: jisuberiLayer, toggle: null }
+        ];
+        
+        // イベントリスナーの設定
+        setupBasemapControls(mapInstance, osmLayer, gsiLayer);
+        setupOverlayControls(mapInstance, tsunamiLayer, dosekiLayer, kyukeishaLayer, jisuberiLayer);
+        setupOpacityControl(tsunamiLayer, dosekiLayer, kyukeishaLayer, jisuberiLayer);
+        
+        // KMLファイルの読み込み
+        loadKMLFiles(mapInstance);
+    } catch (error) {
+        console.error('地図の初期化に失敗しました:', error);
+    }
 }
 
 /**

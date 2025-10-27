@@ -22,11 +22,9 @@ export function initializeUIControls() {
     // 画面サイズに応じてコントロールパネルと折り畳みの初期状態を設定
     window.addEventListener('resize', checkScreenSize);
     
-    // DOMContentLoaded で折り畳みの初期化とチェックを実行
-    document.addEventListener('DOMContentLoaded', () => {
-        initializeCollapsibles();
-        checkScreenSize();
-    });
+    // 折り畳みの初期化とチェックを実行
+    initializeCollapsibles();
+    checkScreenSize();
 }
 
 /**
