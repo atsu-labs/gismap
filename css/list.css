@@ -225,6 +225,60 @@ input[type="text"]:focus {
     gap: 15px;
 }
 
+/* プレイスマーク個別行のユーティリティ */
+.placemark-row {
+    margin-bottom: 8px;
+}
+
+.placemark-row-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.placemark-row-top {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* プレイスマーク名は横並びで省略対応できるようにする */
+.placemark-name {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+/* 小さな地図ボタンのスタイル */
+.open-map-btn {
+    width: 34px;
+    height: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+}
+
+.open-map-btn[disabled] {
+    opacity: 0.4;
+    cursor: default;
+}
+
+/* Material Symbols の調整 */
+.open-map-btn .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 20;
+    font-size: 18px;
+    line-height: 1;
+    color: #333;
+}
+
+.open-map-btn[disabled] .material-symbols-outlined {
+    color: #999;
+}
+
 .placemark-item {
     background: #f8f9fa;
     border-left: 4px solid #667eea;

@@ -44,6 +44,21 @@ function initializeMap() {
         setupOverlayControls(mapInstance, tsunamiLayer, dosekiLayer, kyukeishaLayer, jisuberiLayer);
         setupOpacityControl(tsunamiLayer, dosekiLayer, kyukeishaLayer, jisuberiLayer);
         
+        // URLパラメータで座標が渡されていればその座標に中心を移動する
+        try {
+            const params = new URLSearchParams(window.location.search);
+            const lat = parseFloat(params.get('lat'));
+            const lon = parseFloat(params.get('lon'));
+            const zoomParam = params.get('zoom');
+            const zoom = zoomParam ? parseInt(zoomParam, 10) : null;
+            if (!Number.isNaN(lat) && !Number.isNaN(lon)) {
+                // 指定があればURL側のズームを使う（無ければ適切なズームを指定）
+                mapInstance.setView([lat, lon], Number.isInteger(zoom) ? zoom : 16);
+            }
+        } catch (err) {
+            console.warn('URLパラメータの解析に失敗しました:', err);
+        }
+
         // KMLファイルの読み込み
         loadKMLFiles(mapInstance);
     } catch (error) {

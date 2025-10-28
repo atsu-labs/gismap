@@ -147,19 +147,45 @@ function renderFileSection(containerEl, data) {
         return;
     }
 
-    const html = data.map(pm => `
-        <div class="placemark-item" style="margin-bottom:8px;">
-            <div class="placemark-name">${escapeHtml(pm.name)}</div>
-            ${pm.description ? `<div class="placemark-description">${escapeHtml(pm.description)}</div>` : ''}
-            ${pm.coordinates ? `
-                <div class="placemark-coords">
-                    <span class="coords-label">緯度:</span>${pm.coordinates.latitude.toFixed(6)}
-                    <span class="coords-label">経度:</span>${pm.coordinates.longitude.toFixed(6)}
-                    ${pm.coordinates.altitude !== null ? `<span class="coords-label">標高:</span>${pm.coordinates.altitude.toFixed(2)}m` : ''}
+    // 各プレイスマークに小さな「地図で見る」ボタンを追加
+    const html = data.map(pm => {
+        const hasCoords = pm.coordinates && typeof pm.coordinates.latitude === 'number' && typeof pm.coordinates.longitude === 'number';
+        const lat = hasCoords ? pm.coordinates.latitude : '';
+        const lon = hasCoords ? pm.coordinates.longitude : '';
+        const altPart = hasCoords && pm.coordinates.altitude !== null ? `<span class="coords-label">標高:</span>${pm.coordinates.altitude.toFixed(2)}m` : '';
+
+        // ボタンHTMLはテンプレートリテラル内でバックティックをネストしないよう事前に作る
+        let buttonHtml;
+        // Material Symbols を使う（font-based icons）。名前は 'place'（地図のピン）
+        const iconSvg = '<span class="material-symbols-outlined" aria-hidden="true">place</span>';
+
+        if (hasCoords) {
+            buttonHtml = '<button class="open-map-btn" type="button" data-lat="' + lat + '" data-lon="' + lon + '" data-zoom="16" title="地図で見る" aria-label="地図で見る">'
+                + iconSvg + '</button>';
+        } else {
+            buttonHtml = '<button class="open-map-btn" type="button" disabled title="座標なし" aria-label="座標なし">'
+                + iconSvg + '</button>';
+        }
+
+        return `
+        <div class="placemark-item placemark-row">
+            <div class="placemark-row-inner">
+                <div class="placemark-row-top">
+                    <div class="placemark-name">${escapeHtml(pm.name)}</div>
+                    ${buttonHtml}
                 </div>
-            ` : '<div class="placemark-coords">座標なし</div>'}
+                ${pm.description ? `<div class="placemark-description">${escapeHtml(pm.description)}</div>` : ''}
+                ${hasCoords ? `
+                    <div class="placemark-coords">
+                        <span class="coords-label">緯度:</span>${pm.coordinates.latitude.toFixed(6)}
+                        <span class="coords-label">経度:</span>${pm.coordinates.longitude.toFixed(6)}
+                        ${altPart}
+                    </div>
+                ` : '<div class="placemark-coords">座標なし</div>'}
+            </div>
         </div>
-    `).join('');
+        `;
+    }).join('');
 
     containerEl.innerHTML = html;
 }
@@ -243,6 +269,26 @@ function initialize() {
         
         const isHidden = contentEl.style.display === 'none' || contentEl.style.display === '';
         contentEl.style.display = isHidden ? 'block' : 'none';
+    });
+
+    // プレイスマーク内の「地図で見る」ボタンをハンドル（イベントデリゲーション）
+    fileListEl.addEventListener('click', (e) => {
+        const btn = e.target.closest('.open-map-btn');
+        if (!btn) return;
+        // 折り畳みトグル等に影響させない
+        e.stopPropagation();
+
+        const lat = btn.dataset.lat;
+        const lon = btn.dataset.lon;
+        const zoom = btn.dataset.zoom || '16';
+        if (lat && lon) {
+            const url = `map.html?lat=${encodeURIComponent(lat)}&lon=${encodeURIComponent(lon)}&zoom=${encodeURIComponent(zoom)}`;
+            // 新しいタブで開く
+            window.open(url, '_blank');
+        } else {
+            // 座標がない場合はユーザーに知らせる
+            alert('このプレイスマークには座標がありません');
+        }
     });
 
     // 自動読み込み（ページロード時）
