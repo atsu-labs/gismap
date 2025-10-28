@@ -46,8 +46,8 @@ function renderFileList() {
     fileListEl.innerHTML = files.map(f => `
         <div class="file-section" id="file-${cssId(f)}">
             <div class="file-header" id="header-${cssId(f)}">
-                <div style="font-weight:600">${escapeHtml(f)}</div>
-                <div id="status-${cssId(f)}" style="font-size:0.9em; color:#666">未読み込み</div>
+                <div class="file-name">${escapeHtml(stripKml(f))}</div>
+                <div id="status-${cssId(f)}" style="font-size:0.9em; color:#666">未読込</div>
             </div>
             <div class="file-content" id="content-${cssId(f)}"></div>
         </div>
@@ -80,8 +80,8 @@ async function loadAndParseFiles(files) {
     fileListEl.innerHTML = files.map(f => `
         <div class="file-section" id="file-${cssId(f)}">
             <div class="file-header" id="header-${cssId(f)}">
-                <div style="font-weight:600">${escapeHtml(f)}</div>
-                <div id="status-${cssId(f)}" style="font-size:0.9em; color:#666">読み込み中…</div>
+                <div class="file-name">${escapeHtml(stripKml(f))}</div>
+                <div id="status-${cssId(f)}" style="font-size:0.9em; color:#666">読込中…</div>
             </div>
             <div class="file-content" id="content-${cssId(f)}"></div>
         </div>
@@ -125,7 +125,7 @@ async function loadSingleFile(fileName) {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const text = await res.text();
         const data = parseKMLText(text, fileName);
-        statusEl.innerText = `読み込み成功 (${data.length} 件)`;
+        statusEl.innerText = `読込成功 (${data.length} 件)`;
         renderFileSection(contentEl, data);
     } catch (err) {
         const msg = err.name === 'AbortError' ? 'タイムアウト' : err.message || String(err);
@@ -189,7 +189,7 @@ function showLoading() {
     results.innerHTML = `
         <div class="loading">
             <div class="spinner"></div>
-            <p>読み込み中...</p>
+            <p>読込中...</p>
         </div>
     `;
 }
@@ -207,6 +207,15 @@ function cssId(name) {
         h = h & 0xFFFFFFFF; // 32-bit
     }
     return 'f_' + (h >>> 0).toString(36);
+}
+
+/**
+ * ファイル名から拡張子 .kml を取り除いた表示用文字列を返す
+ * @param {string} name
+ * @returns {string}
+ */
+function stripKml(name) {
+    return name.replace(/\.kml$/i, '');
 }
 
 /**
@@ -241,13 +250,13 @@ function initialize() {
     if (files.length > 0) {
         loadAndParseFiles(files);
     } else {
-        results.innerHTML = `<div class="empty-state"><div class="empty-state-icon">🌐</div><p>読み込むファイルがありません。</p></div>`;
+        results.innerHTML = `<div class="empty-state"><div class="empty-state-icon">🌐</div><p>読込むファイルがありません。</p></div>`;
     }
 
     // リフレッシュボタン
     refreshButton.addEventListener('click', () => {
         renderFileList();
-        results.innerHTML = `<div class="empty-state"><div class="empty-state-icon">🌐</div><p>リストを更新しました。自動読み込みを再実行します。</p></div>`;
+        results.innerHTML = `<div class="empty-state"><div class="empty-state-icon">🌐</div><p>リストを更新しました。自動読込を再実行します。</p></div>`;
         const files = buildFileList();
         if (files.length > 0) loadAndParseFiles(files);
     });

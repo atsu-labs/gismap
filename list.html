@@ -16,12 +16,14 @@
         </div>
         
         <div class="input-section">
-            <div style="margin-top:16px; display:flex; gap:10px;">
-                <button class="load-button" id="refreshButton" style="background:#5a5a5a">リスト更新</button>
-            </div>
-
+            <!-- リフレッシュボタンは拠点一覧ヘッダーと横並びに移動 -->
             <div class="example-urls" style="margin-top:12px;">
-                <h3>拠点一覧</h3>
+                <div class="example-urls-header">
+                    <h3>拠点一覧</h3>
+                    <div>
+                        <button class="load-button" id="refreshButton">リスト更新</button>
+                    </div>
+                </div>
                 <div id="fileList"></div>
             </div>
         </div>
@@ -29,7 +31,7 @@
         <div class="results" id="results">
             <div class="empty-state">
                 <div class="empty-state-icon">🌐</div>
-                <p>KMLファイルのURLを入力して「読み込み」ボタンをクリックしてください</p>
+                <p>KMLファイルのURLを入力して「読込」ボタンをクリックしてください</p>
             </div>
         </div>
     </div>

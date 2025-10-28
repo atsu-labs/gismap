@@ -82,6 +82,27 @@ input[type="text"]:focus {
     cursor: not-allowed;
 }
 
+/* リスト更新ボタンを小さく目立たなくするためのオーバーライド */
+#refreshButton.load-button, #refreshButton {
+    background: transparent;
+    color: #555;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #e6e6e6;
+    border-radius: 6px;
+    box-shadow: none;
+    cursor: pointer;
+    white-space: nowrap;
+    align-self: flex-start; /* 左寄せにして目立ちにくく */
+}
+
+#refreshButton.load-button:hover:not(:disabled),
+#refreshButton:hover:not(:disabled) {
+    transform: none;
+    box-shadow: none;
+    background: #f5f7fb;
+}
+
 .example-urls {
     margin-top: 15px;
     padding: 15px;
@@ -92,7 +113,46 @@ input[type="text"]:focus {
 .example-urls h3 {
     font-size: 0.9em;
     color: #666;
+    margin: 0; /* heading spacing handled by header wrapper */
+}
+
+/* 拠点一覧見出しとボタンを横並びにしてボタンを右寄せ */
+.example-urls-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
     margin-bottom: 10px;
+}
+
+/* 小さい画面では見出しとボタンを縦並びにして幅を揃える */
+@media (max-width: 420px) {
+    /* モバイルでも横並びを維持する（折り返さず、見出しは省略表示） */
+    .example-urls-header {
+        flex-wrap: nowrap; /* 折り返さない */
+        align-items: center;
+        gap: 8px;
+    }
+
+    .example-urls-header h3 {
+        flex: 1 1 auto; /* 見出しを伸縮させる */
+        min-width: 0; /* overflow を有効にするために必要 */
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    /* ボタンは横並びのまま縮める（幅固定しない） */
+    #refreshButton {
+        flex: 0 0 auto;
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+
+    /* 余白を少し詰めてコンパクトにする */
+    .example-urls {
+        padding: 10px;
+    }
 }
 
 .example-link {
@@ -240,10 +300,92 @@ input[type="text"]:focus {
     cursor: pointer;
 }
 
+/* ファイル名を1行に収め、末尾は省略する */
+.file-header .file-name {
+    font-weight: 600;
+    flex: 1 1 auto;
+    min-width: 0; /* flexアイテムのoverflowを正しく効かせるため */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-right: 8px;
+}
+
 .file-content {
     display: none;
     padding: 12px;
     background: #fbfbfb;
     border: 1px solid #efefef;
     border-top: none;
+}
+
+/* モバイルで余白とサイズを調整してすっきり見せる */
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: 0;
+        border-radius: 10px;
+        box-shadow: none;
+    }
+
+    .header {
+        padding: 18px 16px;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+
+    .input-section, .results {
+        padding: 16px;
+        border-bottom: none;
+    }
+
+    .load-button {
+        padding: 10px 14px;
+        font-size: 15px;
+        width: auto;
+    }
+
+    .example-urls {
+        padding: 12px;
+    }
+
+    .placemark-list {
+        gap: 10px;
+    }
+
+    .placemark-item {
+        padding: 12px;
+        border-left-width: 6px;
+        border-radius: 8px;
+    }
+
+    .placemark-name {
+        font-size: 1.05em;
+        margin-bottom: 6px;
+    }
+
+    .placemark-description {
+        font-size: 0.95em;
+        margin-bottom: 8px;
+    }
+
+    .placemark-coords {
+        padding: 8px;
+        font-size: 0.85em;
+    }
+
+    .empty-state {
+        padding: 36px 12px;
+    }
+
+    .file-header {
+        padding: 8px 10px;
+        font-size: 0.95em;
+    }
 }
