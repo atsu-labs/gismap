@@ -290,8 +290,8 @@ function initialize() {
             let url = `map.html?lat=${encodeURIComponent(lat)}&lon=${encodeURIComponent(lon)}&zoom=${encodeURIComponent(zoom)}`;
             if (fileBase) url += `&file=${encodeURIComponent(fileBase)}`;
             if (pname) url += `&placemark=${encodeURIComponent(pname)}`;
-            // 新しいタブで開く
-            window.open(url, '_blank');
+            // 同じタブで開く
+            window.location.href = url;
         } else {
             // 座標がない場合はユーザーに知らせる
             alert('このプレイスマークには座標がありません');
