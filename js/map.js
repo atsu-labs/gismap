@@ -23,9 +23,9 @@ function initializeMap() {
         // 地図の初期化（函館市）
         mapInstance = L.map('map').setView(HAKODATE_CENTER, DEFAULT_ZOOM);
         
-        // ベースマップレイヤーの作成
-        const { osmLayer, gsiLayer } = createBaseLayers();
-        osmLayer.addTo(mapInstance);
+    // ベースマップレイヤーの作成
+    const { osmLayer, gsiLayer, gsiPhotoLayer } = createBaseLayers();
+    osmLayer.addTo(mapInstance);
         
         // オーバーレイレイヤーの作成
         const { tsunamiLayer, dosekiLayer, kyukeishaLayer, jisuberiLayer } = createOverlayLayers();
@@ -40,7 +40,7 @@ function initializeMap() {
         ];
         
         // イベントリスナーの設定
-        setupBasemapControls(mapInstance, osmLayer, gsiLayer);
+            setupBasemapControls(mapInstance, osmLayer, gsiLayer, gsiPhotoLayer);
         setupOverlayControls(mapInstance, tsunamiLayer, dosekiLayer, kyukeishaLayer, jisuberiLayer);
         setupOpacityControl(tsunamiLayer, dosekiLayer, kyukeishaLayer, jisuberiLayer);
         
@@ -67,8 +67,14 @@ function createBaseLayers() {
         attribution: '<a href="https://maps.gsi.go.jp/development/ichiran.html">国土地理院</a>',
         maxZoom: 18
     });
+
+    // 国土地理院 航空写真（シームレスフォト）タイルレイヤー
+    const gsiPhotoLayer = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg', {
+        attribution: '<a href="https://maps.gsi.go.jp/development/ichiran.html">国土地理院（航空写真）</a>',
+        maxZoom: 18
+    });
     
-    return { osmLayer, gsiLayer };
+    return { osmLayer, gsiLayer, gsiPhotoLayer };
 }
 
 /**
@@ -112,26 +118,33 @@ function createOverlayLayers() {
  * @param {L.Map} map - Leaflet地図オブジェクト
  * @param {L.TileLayer} osmLayer - OpenStreetMapレイヤー
  * @param {L.TileLayer} gsiLayer - 国土地理院レイヤー
+ * @param {L.TileLayer} gsiPhotoLayer - 国土地理院航空写真（シームレスフォト）レイヤー
  */
-function setupBasemapControls(map, osmLayer, gsiLayer) {
+function setupBasemapControls(map, osmLayer, gsiLayer, gsiPhotoLayer) {
     const basemapRadios = document.querySelectorAll('input[name="basemap"]');
     basemapRadios.forEach(radio => {
         radio.addEventListener('change', (e) => {
             // 現在表示されているオーバーレイレイヤーを特定
             const activeOverlays = overlayLayers.filter(ol => map.hasLayer(ol.layer));
-            
+
             // 表示中のオーバーレイレイヤーを一時的に削除
             activeOverlays.forEach(ol => map.removeLayer(ol.layer));
-            
-            // ベースマップを切り替え
-            if (e.target.value === 'osm') {
-                map.removeLayer(gsiLayer);
+
+            // ベースマップを切り替え（3択対応）
+            const value = e.target.value;
+            // まず既存のベースを全て取り除く（安全のため）
+            [osmLayer, gsiLayer, gsiPhotoLayer].forEach(bl => {
+                try { map.removeLayer(bl); } catch (err) { /* ignore */ }
+            });
+
+            if (value === 'osm') {
                 map.addLayer(osmLayer);
-            } else {
-                map.removeLayer(osmLayer);
+            } else if (value === 'gsi') {
                 map.addLayer(gsiLayer);
+            } else if (value === 'gsiPhoto') {
+                map.addLayer(gsiPhotoLayer);
             }
-            
+
             // オーバーレイレイヤーを再追加（ベースマップの上に表示）
             activeOverlays.forEach(ol => map.addLayer(ol.layer));
         });
