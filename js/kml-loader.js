@@ -196,13 +196,15 @@ function loadSingleKMLFile(file, groupKey, kmlFileList, map) {
                 iconPreview.style.verticalAlign = 'middle';
                 checkboxLabel.insertBefore(iconPreview, checkboxLabel.firstChild);
             }
+            // ready フラグを立てる（存在すれば）
+            if (kmlLayers[globalIndex]) kmlLayers[globalIndex].ready = true;
         })
         .on('error', function(e) {
             console.error(`KMLファイル読み込みエラー: ${fileName}`, e);
         });
 
-    // レイヤー情報を保存
-    kmlLayers.push({ layer: kmlLayer, name: fileName, visible: group.visibleByUser, group: groupKey });
+    // レイヤー情報を保存（ready フラグを追加）
+    kmlLayers.push({ layer: kmlLayer, name: fileName, visible: group.visibleByUser, group: groupKey, ready: false });
     group.layerRefs.push(kmlLayer);
 
     // チェックボックス（個別）を作成
@@ -331,4 +333,108 @@ function updateGroupVisibility(groupKey, map) {
  */
 function updateAllGroupVisibility(map) {
     Object.keys(kmlGroups).forEach(key => updateGroupVisibility(key, map));
+}
+
+/**
+ * すべてのKMLレイヤが読み込み完了になるのを待つ（タイムアウトあり）
+ * @param {number} timeout - 待機タイムアウト（ms）
+ * @returns {Promise<void>}
+ */
+export function waitForKmlReady(timeout = 5000) {
+    const start = Date.now();
+    return new Promise((resolve) => {
+        (function check() {
+            const allReady = kmlLayers.length > 0 && kmlLayers.every(e => e.ready === true);
+            if (allReady || Date.now() - start > timeout) {
+                resolve();
+            } else {
+                setTimeout(check, 200);
+            }
+        })();
+    });
+}
+
+/**
+ * 指定座標に最も近いマーカーの popup を開く
+ * @param {L.Map} map
+ * @param {number} lat
+ * @param {number} lon
+ * @param {number} maxMeters
+ * @returns {boolean} popup を開いたら true
+ */
+export function openPopupNear(map, lat, lon, maxMeters = 2000) {
+    if (!map || !kmlLayers || kmlLayers.length === 0) return false;
+    let best = null;
+    kmlLayers.forEach((entry) => {
+        if (!entry.layer) return;
+        // 表示中のレイヤのみ対象
+        if (!map.hasLayer(entry.layer)) return;
+        try {
+            entry.layer.eachLayer((layer) => {
+                if (layer.getLatLng) {
+                    const ll = layer.getLatLng();
+                    const d = map.distance([lat, lon], [ll.lat, ll.lng]);
+                    if (!best || d < best.dist) best = { layer, ll, dist: d };
+                }
+            });
+        } catch (e) {
+            // ignore
+        }
+    });
+
+    if (best && best.dist <= maxMeters) {
+        // 適切なズームに合わせてセンタリング
+        const targetZoom = map.getZoom() < 16 ? 16 : map.getZoom();
+        map.setView([best.ll.lat, best.ll.lng], targetZoom);
+        if (best.layer.openPopup) {
+            best.layer.openPopup();
+        } else if (best.layer.fire) {
+            // 一部のレイヤは click を発火させると popup が開く
+            best.layer.fire('click');
+        }
+        return true;
+    }
+    return false;
+}
+
+/**
+ * ファイル名（拡張子なし）とプレイスマーク名で正確に popup を開く
+ * @param {L.Map} map
+ * @param {string} fileBase - KMLファイルのベース名（拡張子なし、例: 拠点【地上部隊】）
+ * @param {string} placemarkName - プレイスマークの name
+ * @returns {boolean} 開いたら true
+ */
+export function findAndOpenByFileAndName(map, fileBase, placemarkName) {
+    if (!map || !fileBase || !placemarkName) return false;
+    // 見つけた最初の一致を開く
+    for (const entry of kmlLayers) {
+        if (!entry || !entry.layer) continue;
+        if (entry.name !== fileBase) continue;
+        // 対象レイヤが地図に追加されているか確認
+        if (!map.hasLayer(entry.layer)) continue;
+        try {
+            let opened = false;
+            entry.layer.eachLayer((layer) => {
+                if (opened) return;
+                if (layer.feature && layer.feature.properties && layer.feature.properties.name === placemarkName) {
+                    // 座標が取れるなら中心へ移動
+                    if (layer.getLatLng) {
+                        const ll = layer.getLatLng();
+                        const targetZoom = map.getZoom() < 16 ? 16 : map.getZoom();
+                        map.setView([ll.lat, ll.lng], targetZoom);
+                    }
+                    if (layer.openPopup) {
+                        layer.openPopup();
+                    } else if (layer.fire) {
+                        layer.fire('click');
+                    }
+                    opened = true;
+                }
+            });
+            if (opened) return true;
+        } catch (e) {
+            // ignore and continue
+        }
+    }
+    return false;
 }

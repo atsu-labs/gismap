@@ -160,7 +160,10 @@ function renderFileSection(containerEl, data) {
         const iconSvg = '<span class="material-symbols-outlined" aria-hidden="true">place</span>';
 
         if (hasCoords) {
-            buttonHtml = '<button class="open-map-btn" type="button" data-lat="' + lat + '" data-lon="' + lon + '" data-zoom="16" title="地図で見る" aria-label="地図で見る">'
+            // file-base (拡張子なし) を付与して精密一致を可能にする
+            const fileBase = stripKml(pm.source || '');
+            const safeName = escapeHtml(pm.name).replace(/"/g, '&quot;');
+            buttonHtml = '<button class="open-map-btn" type="button" data-lat="' + lat + '" data-lon="' + lon + '" data-zoom="16" data-file="' + encodeURIComponent(fileBase) + '" data-pname="' + encodeURIComponent(pm.name) + '" title="地図で見る" aria-label="地図で見る">'
                 + iconSvg + '</button>';
         } else {
             buttonHtml = '<button class="open-map-btn" type="button" disabled title="座標なし" aria-label="座標なし">'
@@ -281,8 +284,12 @@ function initialize() {
         const lat = btn.dataset.lat;
         const lon = btn.dataset.lon;
         const zoom = btn.dataset.zoom || '16';
+        const fileBase = btn.dataset.file; // 拡張子なしファイル名
+        const pname = btn.dataset.pname; // プレイスマーク名
         if (lat && lon) {
-            const url = `map.html?lat=${encodeURIComponent(lat)}&lon=${encodeURIComponent(lon)}&zoom=${encodeURIComponent(zoom)}`;
+            let url = `map.html?lat=${encodeURIComponent(lat)}&lon=${encodeURIComponent(lon)}&zoom=${encodeURIComponent(zoom)}`;
+            if (fileBase) url += `&file=${encodeURIComponent(fileBase)}`;
+            if (pname) url += `&placemark=${encodeURIComponent(pname)}`;
             // 新しいタブで開く
             window.open(url, '_blank');
         } else {

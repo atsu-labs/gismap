@@ -1,7 +1,7 @@
 // メインの地図初期化モジュール
 
 import { initializeUIControls } from './ui-controls.js';
-import { loadKMLFiles } from './kml-loader.js';
+import { loadKMLFiles, waitForKmlReady, openPopupNear, findAndOpenByFileAndName } from './kml-loader.js';
 
 // 定数定義
 const HAKODATE_CENTER = [41.7688, 140.7288];
@@ -15,7 +15,7 @@ let mapInstance = null;
 /**
  * 地図を初期化
  */
-function initializeMap() {
+async function initializeMap() {
     // UI制御の初期化（地図の初期化より先に実行して、エラーが起きても動作するようにする）
     initializeUIControls();
     
@@ -44,7 +44,10 @@ function initializeMap() {
         setupOverlayControls(mapInstance, tsunamiLayer, dosekiLayer, kyukeishaLayer, jisuberiLayer);
         setupOpacityControl(tsunamiLayer, dosekiLayer, kyukeishaLayer, jisuberiLayer);
         
-        // URLパラメータで座標が渡されていればその座標に中心を移動する
+        // URLパラメータで座標が渡されていればまず中心を移動（KML読み込み後に popup を開く）
+        let queryLat = null;
+        let queryLon = null;
+        let queryZoom = null;
         try {
             const params = new URLSearchParams(window.location.search);
             const lat = parseFloat(params.get('lat'));
@@ -52,8 +55,10 @@ function initializeMap() {
             const zoomParam = params.get('zoom');
             const zoom = zoomParam ? parseInt(zoomParam, 10) : null;
             if (!Number.isNaN(lat) && !Number.isNaN(lon)) {
-                // 指定があればURL側のズームを使う（無ければ適切なズームを指定）
-                mapInstance.setView([lat, lon], Number.isInteger(zoom) ? zoom : 16);
+                queryLat = lat;
+                queryLon = lon;
+                queryZoom = Number.isInteger(zoom) ? zoom : 16;
+                mapInstance.setView([queryLat, queryLon], queryZoom);
             }
         } catch (err) {
             console.warn('URLパラメータの解析に失敗しました:', err);
@@ -61,6 +66,28 @@ function initializeMap() {
 
         // KMLファイルの読み込み
         loadKMLFiles(mapInstance);
+
+        // KML の読み込み完了を待ち、もしクエリ座標があれば最寄りのマーカー popup を開く
+        try {
+            await waitForKmlReady(5000);
+            if (queryLat !== null && queryLon !== null) {
+                const params = new URLSearchParams(window.location.search);
+                const fileParam = params.get('file');
+                const placemarkParam = params.get('placemark');
+                let opened = false;
+                if (fileParam && placemarkParam) {
+                    // まずファイル名＋placemark名で厳密一致を試す
+                    opened = findAndOpenByFileAndName(mapInstance, decodeURIComponent(fileParam), decodeURIComponent(placemarkParam));
+                }
+                if (!opened) {
+                    // 厳密マッチが見つからなければ座標近傍検索で代替
+                    const neighborOpened = openPopupNear(mapInstance, queryLat, queryLon, 2000);
+                    if (!neighborOpened) console.info('近傍のマーカーが見つかりませんでした（または非表示）');
+                }
+            }
+        } catch (e) {
+            console.warn('KMLロード待機中にエラーが発生しました:', e);
+        }
     } catch (error) {
         console.error('地図の初期化に失敗しました:', error);
     }
