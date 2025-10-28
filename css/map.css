@@ -33,6 +33,15 @@ body {
     flex: 1;
     min-width: 0; /* flex要素のオーバーフロー防止 */
     margin-right: 8px;
+    /* アイコンとテキストを横並びに配置 */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* タイトルテキスト部分をまとめるラッパー */
+.site-header .title-wrap .title-text {
+    overflow: hidden; /* タイトルが長すぎる場合に省略するため */
 }
 
 .site-header .title-wrap h1 {
@@ -73,6 +82,28 @@ body {
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     flex-shrink: 0; /* ボタンが縮小しないようにする */
     touch-action: manipulation; /* ダブルタップズーム防止 */
+}
+
+/* 戻るリンク（アイコン）のスタイル */
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--text-dark);
+    flex-shrink: 0; /* アイコンが縮小しないようにする */
+}
+
+.back-link:hover {
+    background: rgba(0,0,0,0.04);
+}
+
+.back-link .material-symbols-outlined {
+    font-size: 20px;
+    line-height: 1;
 }
 
 .toggle-button:hover {
