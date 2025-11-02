@@ -12,6 +12,7 @@ const DEFAULT_OPACITY = 0.7;
 let overlayLayers = [];
 let mapInstance = null;
 let currentLocationMarker = null; // 現在地マーカーの参照
+let currentLocationCircle = null; // 現在地の精度円の参照
 
 /**
  * 地図を初期化
@@ -298,9 +299,12 @@ function setupLocationControl(map) {
                 // 地図の中心を現在地に移動
                 map.setView([lat, lon], 16);
                 
-                // 既存のマーカーがあれば削除
+                // 既存のマーカーと精度円があれば削除
                 if (currentLocationMarker) {
                     map.removeLayer(currentLocationMarker);
+                }
+                if (currentLocationCircle) {
+                    map.removeLayer(currentLocationCircle);
                 }
                 
                 // カスタムアイコンを作成
@@ -317,8 +321,8 @@ function setupLocationControl(map) {
                     .bindPopup(`現在地<br>精度: 約${Math.round(accuracy)}m`)
                     .openPopup();
                 
-                // 精度円を追加（オプション）
-                L.circle([lat, lon], {
+                // 精度円を追加
+                currentLocationCircle = L.circle([lat, lon], {
                     radius: accuracy,
                     color: '#0078d4',
                     fillColor: '#0078d4',
