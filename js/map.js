@@ -11,6 +11,8 @@ const DEFAULT_OPACITY = 0.7;
 // オーバーレイレイヤーの参照配列
 let overlayLayers = [];
 let mapInstance = null;
+let currentLocationMarker = null; // 現在地マーカーの参照
+let currentLocationCircle = null; // 現在地の精度円の参照
 
 /**
  * 地図を初期化
@@ -88,6 +90,9 @@ async function initializeMap() {
         } catch (e) {
             console.warn('KMLロード待機中にエラーが発生しました:', e);
         }
+
+        // 現在地取得ボタンのイベントリスナーを設定
+        setupLocationControl(mapInstance);
     } catch (error) {
         console.error('地図の初期化に失敗しました:', error);
     }
@@ -259,6 +264,99 @@ function setupOpacityControl(tsunamiLayer, dosekiLayer, kyukeishaLayer, jisuberi
         kyukeishaLayer.setOpacity(opacity);
         jisuberiLayer.setOpacity(opacity);
         opacityValue.textContent = e.target.value + '%';
+    });
+}
+
+/**
+ * 現在地取得コントロールを設定
+ * @param {L.Map} map - Leaflet地図オブジェクト
+ */
+function setupLocationControl(map) {
+    const locateButton = document.getElementById('locateButton');
+    
+    if (!locateButton) {
+        console.warn('現在地ボタンが見つかりませんでした');
+        return;
+    }
+    
+    locateButton.addEventListener('click', () => {
+        // ボタンに「取得中」のスタイルを適用
+        locateButton.classList.add('locating');
+        
+        // Geolocation APIで現在地を取得
+        if (!navigator.geolocation) {
+            alert('お使いのブラウザは位置情報取得に対応していません。');
+            locateButton.classList.remove('locating');
+            return;
+        }
+        
+        navigator.geolocation.getCurrentPosition(
+            (position) => {
+                const lat = position.coords.latitude;
+                const lon = position.coords.longitude;
+                const accuracy = position.coords.accuracy;
+                
+                // 地図の中心を現在地に移動
+                map.setView([lat, lon], 16);
+                
+                // 既存のマーカーと精度円があれば削除
+                if (currentLocationMarker) {
+                    map.removeLayer(currentLocationMarker);
+                }
+                if (currentLocationCircle) {
+                    map.removeLayer(currentLocationCircle);
+                }
+                
+                // カスタムアイコンを作成
+                const locationIcon = L.divIcon({
+                    className: 'current-location-icon',
+                    html: '<div style="background: #0078d4; width: 20px; height: 20px; border-radius: 50%; border: 3px solid white; box-shadow: 0 0 10px rgba(0, 120, 212, 0.5);"></div>',
+                    iconSize: [26, 26],
+                    iconAnchor: [13, 13]
+                });
+                
+                // 現在地マーカーを作成
+                currentLocationMarker = L.marker([lat, lon], { icon: locationIcon })
+                    .addTo(map)
+                    .bindPopup(`現在地<br>精度: 約${Math.round(accuracy)}m`)
+                    .openPopup();
+                
+                // 精度円を追加
+                currentLocationCircle = L.circle([lat, lon], {
+                    radius: accuracy,
+                    color: '#0078d4',
+                    fillColor: '#0078d4',
+                    fillOpacity: 0.1,
+                    weight: 1
+                }).addTo(map);
+                
+                locateButton.classList.remove('locating');
+            },
+            (error) => {
+                locateButton.classList.remove('locating');
+                let errorMessage = '位置情報の取得に失敗しました。';
+                
+                switch (error.code) {
+                    case error.PERMISSION_DENIED:
+                        errorMessage = '位置情報の使用が許可されていません。ブラウザの設定を確認してください。';
+                        break;
+                    case error.POSITION_UNAVAILABLE:
+                        errorMessage = '位置情報が利用できません。';
+                        break;
+                    case error.TIMEOUT:
+                        errorMessage = '位置情報の取得がタイムアウトしました。';
+                        break;
+                }
+                
+                alert(errorMessage);
+                console.error('位置情報取得エラー:', error);
+            },
+            {
+                enableHighAccuracy: true,
+                timeout: 10000,
+                maximumAge: 0
+            }
+        );
     });
 }
 
