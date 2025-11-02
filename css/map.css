@@ -279,3 +279,57 @@ body {
 .collapsible.open .chev {
     transform: rotate(90deg);
 }
+
+/* 現在地ボタン（モバイルのみ表示） */
+.locate-button {
+    display: none; /* デフォルトは非表示 */
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    width: 44px;
+    height: 44px;
+    background: white;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease, transform 0.1s ease;
+    touch-action: manipulation;
+}
+
+.locate-button:hover {
+    background: #f0f0f0;
+}
+
+.locate-button:active {
+    transform: scale(0.95);
+}
+
+.locate-button .material-symbols-outlined {
+    font-size: 24px;
+    color: #0078d4;
+}
+
+.locate-button.locating .material-symbols-outlined {
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+/* モバイル画面でのみ表示 */
+@media (max-width: 768px) {
+    .locate-button {
+        display: flex; /* モバイルで表示 */
+    }
+}
