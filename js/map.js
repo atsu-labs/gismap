@@ -2,11 +2,12 @@
 
 import { initializeUIControls } from './ui-controls.js';
 import { loadKMLFiles, waitForKmlReady, openPopupNear, findAndOpenByFileAndName } from './kml-loader.js';
+import { MAP_CONSTANTS } from './constants.js';
 
 // 定数定義
-const HAKODATE_CENTER = [41.7688, 140.7288];
-const DEFAULT_ZOOM = 12;
-const DEFAULT_OPACITY = 0.7;
+const HAKODATE_CENTER = MAP_CONSTANTS.HAKODATE_CENTER;
+const DEFAULT_ZOOM = MAP_CONSTANTS.DEFAULT_ZOOM;
+const DEFAULT_OPACITY = MAP_CONSTANTS.DEFAULT_OPACITY;
 
 // オーバーレイレイヤーの参照配列
 let overlayLayers = [];

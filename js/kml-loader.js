@@ -1,78 +1,9 @@
 // KMLローダーモジュール
 
-// 定数定義
-const MARKER_COLORS = [
-    '#e74c3c', // 赤
-    '#3498db', // 青
-    '#2ecc71', // 緑
-    '#f39c12', // オレンジ
-    '#9b59b6', // 紫
-    '#1abc9c', // ティール
-    '#e67e22', // ダークオレンジ
-    '#95a5a6'  // グレー
-];
+import { MARKER_COLORS, ICON_NAME_MAP, ICON_COLOR_MAP, MAP_CONSTANTS } from './constants.js';
+import { kmlGroups } from './kml-config.js';
 
-const ZOOM_THRESHOLD = 16; // 消防水利グループの表示閾値
-
-// KMLファイルのグループ定義
-const kmlGroups = {
-    shoubou: {
-        title: '消防水利（ズーム時のみ表示）',
-        files: [
-            'kml/防火水槽.kml',
-            'kml/地上式.kml',
-            'kml/地下式.kml'
-        ],
-        layerRefs: [], // 読み込んだレイヤ参照を格納
-        visibleByUser: false // ユーザがグループを有効化しているか
-    },
-    support: {
-        title: '受援情報',
-        files: [
-            'kml/拠点【航空部隊】.kml',
-            'kml/拠点【地上部隊】.kml',
-            'kml/宿営可能地.kml',
-            'kml/前進拠点.kml',
-            'kml/ヘリ離発着.kml',
-            'kml/医療機関.kml',
-            'kml/給油【航空部隊】.kml',
-            'kml/給油【地上部隊】.kml'
-        ],
-        layerRefs: [],
-        // 初期表示で受援情報は表示しておく
-        visibleByUser: true
-    }
-};
-
-// KMLごとにアイコン名を割り当てるマッピング
-const iconNameMap = {
-    '防火水槽': 'crop_square',
-    '地上式': 'fire_hydrant',
-    '地下式': 'poker_chip',
-    '拠点【航空部隊】': 'flight',
-    '拠点【地上部隊】': 'fire_truck',
-    '宿営可能地': 'hotel',
-    '前進拠点': 'flag',
-    'ヘリ離発着': 'helicopter',
-    '医療機関': 'local_hospital',
-    '給油【航空部隊】': 'local_gas_station',
-    '給油【地上部隊】': 'local_gas_station'
-};
-
-// KMLごとに色を割り当てるマッピング
-const iconColorMap = {
-    '防火水槽': '#498aeb',
-    '地上式': '#ebcb3d',
-    '地下式': '#f58552',
-    '拠点【航空部隊】': '#59b65e',
-    '拠点【地上部隊】': '#6669f7',
-    '宿営可能地': '#f39c12',
-    '前進拠点': '#e67e22',
-    'ヘリ離発着': '#7f8892',
-    '医療機関': '#f56454',
-    '給油【航空部隊】': '#16a085',
-    '給油【地上部隊】': '#2980b9'
-};
+const ZOOM_THRESHOLD = MAP_CONSTANTS.ZOOM_THRESHOLD;
 
 // KMLレイヤーの管理配列
 const kmlLayers = [];
@@ -167,8 +98,8 @@ function loadSingleKMLFile(file, groupKey, kmlFileList, map) {
     const fileName = file.split('/').pop().replace('.kml', '');
     const markerColor = MARKER_COLORS[globalIndex % MARKER_COLORS.length];
 
-    const assignedIconName = iconNameMap[fileName] || 'place';
-    const assignedColor = iconColorMap[fileName] || markerColor;
+    const assignedIconName = ICON_NAME_MAP[fileName] || 'place';
+    const assignedColor = ICON_COLOR_MAP[fileName] || markerColor;
 
     const kmlLayer = omnivore.kml(file)
         .on('ready', function() {

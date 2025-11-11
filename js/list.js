@@ -1,24 +1,10 @@
 // 一覧ページのメインスクリプト
 
 import { parseKMLText, escapeHtml } from './kml-parser.js';
+import { fetchWithTimeout, isSuccessResponse, getResponseText, formatErrorMessage } from './http-client.js';
+import { DIRECTORY_FILES, EXCLUDED_KEYWORDS, HTTP_CONSTANTS } from './constants.js';
 
-// 定数定義
-const DIRECTORY_FILES = [
-    'ヘリ離発着.kml',
-    '前進拠点.kml',
-    '医療機関.kml',
-    '地上式.kml',
-    '地下式.kml',
-    '宿営可能地.kml',
-    '拠点【地上部隊】.kml',
-    '拠点【航空部隊】.kml',
-    '給油【地上部隊】.kml',
-    '給油【航空部隊】.kml',
-    '防火水槽.kml'
-];
-
-const EXCLUDED_KEYWORDS = ['地上式', '地下式', '防火水槽'];
-const FETCH_TIMEOUT = 10000;
+const FETCH_TIMEOUT = HTTP_CONSTANTS.FETCH_TIMEOUT;
 
 /**
  * 除外キーワードを含まないファイルのリストを構築
@@ -52,20 +38,6 @@ function renderFileList() {
             <div class="file-content" id="content-${cssId(f)}"></div>
         </div>
     `).join('');
-}
-
-/**
- * タイムアウト付きfetch
- * @param {string} resource - リソースURL
- * @param {Object} options - fetchオプション
- * @returns {Promise<Response>}
- */
-async function fetchWithTimeout(resource, options = {}) {
-    const { timeout = FETCH_TIMEOUT, ...fetchOptions } = options;
-    const controller = new AbortController();
-    fetchOptions.signal = controller.signal;
-    const id = setTimeout(() => controller.abort(), timeout);
-    return fetch(resource, fetchOptions).finally(() => clearTimeout(id));
 }
 
 /**
@@ -105,30 +77,18 @@ async function loadSingleFile(fileName) {
     const contentEl = document.getElementById(`content-${cssId(fileName)}`);
     
     try {
-        let res = await fetchWithTimeout(url, { timeout: FETCH_TIMEOUT });
+        const res = await fetchWithTimeout(url, { timeout: FETCH_TIMEOUT });
 
-        // 304はキャッシュによる未更新応答なのでエラー扱いにしない
-        if (res.status === 304) {
-            try {
-                const cached = await fetchWithTimeout(url, { timeout: FETCH_TIMEOUT, cache: 'force-cache' });
-                if (cached && cached.ok) {
-                    res = cached;
-                } else {
-                    // キャッシュバスターを使って再取得
-                    res = await fetchWithTimeout(url + (url.includes('?') ? '&' : '?') + `_=${Date.now()}`, { timeout: FETCH_TIMEOUT });
-                }
-            } catch (e) {
-                // エラー時も処理を継続
-            }
+        if (!isSuccessResponse(res)) {
+            throw new Error(`HTTP ${res.status}`);
         }
 
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const text = await res.text();
+        const text = await getResponseText(res, url, FETCH_TIMEOUT);
         const data = parseKMLText(text, fileName);
         statusEl.innerText = `読込成功 (${data.length} 件)`;
         renderFileSection(contentEl, data);
     } catch (err) {
-        const msg = err.name === 'AbortError' ? 'タイムアウト' : err.message || String(err);
+        const msg = formatErrorMessage(err);
         if (statusEl) statusEl.innerText = `エラー: ${msg}`;
         if (contentEl) contentEl.innerHTML = `<div class="error" style="margin:6px 0;">${escapeHtml(msg)}</div>`;
     }
