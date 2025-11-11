@@ -1,6 +1,7 @@
-# gismap
+# 函館市 災害受援用サイト
 
-Leaflet を使用した地図表示サイト
+函館市 災害受援用サイトです。leaflet を使用した拠点地図と拠点の一覧を確認することができます。
+同じ拠点情報を使用した[地理院地図](https://hakodate-keibou.github.io/gsimaps/)も利用できます。
 
 ## 機能
 
