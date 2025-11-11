@@ -32,7 +32,6 @@ async function initializeMap() {
         
         // オーバーレイレイヤーの作成
         const { tsunamiLayer, dosekiLayer, kyukeishaLayer, jisuberiLayer } = createOverlayLayers();
-        tsunamiLayer.addTo(mapInstance);
         
         // オーバーレイレイヤーの参照配列を設定
         overlayLayers = [
@@ -41,6 +40,25 @@ async function initializeMap() {
             { layer: kyukeishaLayer, toggle: null },
             { layer: jisuberiLayer, toggle: null }
         ];
+        
+        // チェックボックスの初期状態に基づいてオーバーレイレイヤーを追加
+        const tsunamiToggle = document.getElementById('tsunamiToggle');
+        const dosekiToggle = document.getElementById('dosekiToggle');
+        const kyukeishaToggle = document.getElementById('kyukeishaToggle');
+        const jisuberiToggle = document.getElementById('jisuberiToggle');
+        
+        if (tsunamiToggle && tsunamiToggle.checked) {
+            tsunamiLayer.addTo(mapInstance);
+        }
+        if (dosekiToggle && dosekiToggle.checked) {
+            dosekiLayer.addTo(mapInstance);
+        }
+        if (kyukeishaToggle && kyukeishaToggle.checked) {
+            kyukeishaLayer.addTo(mapInstance);
+        }
+        if (jisuberiToggle && jisuberiToggle.checked) {
+            jisuberiLayer.addTo(mapInstance);
+        }
         
         // イベントリスナーの設定
             setupBasemapControls(mapInstance, osmLayer, gsiLayer, gsiPhotoLayer);
