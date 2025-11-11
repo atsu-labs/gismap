@@ -106,7 +106,10 @@ ReliefBaseMap/
 │   ├── ui-controls.js      # UI制御（トグルボタン、折り畳み等）
 │   ├── kml-loader.js       # KMLファイル読み込み処理
 │   ├── kml-parser.js       # KMLパース共通ユーティリティ
-│   └── list.js             # 一覧ページのメイン処理
+│   ├── list.js             # 一覧ページのメイン処理
+│   ├── constants.js        # 共通定数・マッピング（DRY原則）
+│   ├── http-client.js      # HTTP通信ユーティリティ
+│   └── kml-config.js       # KMLグループ設定管理
 └── kml/
     ├── README.md           # KMLファイル管理ドキュメント
     ├── 拠点【航空部隊】.kml
@@ -125,9 +128,11 @@ ReliefBaseMap/
 ## コードの特徴
 
 - **モジュール化**: 機能ごとに JavaScript ファイルを分離し、ES6 モジュールシステムを採用
+- **DRY 原則**: 共通定数・マッピングを `constants.js` に一元化
+- **関心の分離**: HTTP 処理、KML 設定、定数定義が明確に分離
 - **保守性**: 関数を単一責任原則に従って分割し、コメントを日本語で記述
 - **可読性**: 定数を明示的に定義し、マジックナンバーを排除
-- **再利用性**: KML パーサーなど共通機能を独立したモジュールとして抽出
+- **再利用性**: 共通ユーティリティ（http-client.js 等）が独立したモジュール
 
 ## 動作確認 (ローカル)
 
@@ -170,7 +175,7 @@ npx http-server -c-1
 
 ### モジュール構成
 
-各 JavaScript モジュールは以下の責務を持ちます：
+#### メインモジュール
 
 - [`map.js`](js/map.js): 地図の初期化、ベースマップ・オーバーレイレイヤーの管理
 - [`ui-controls.js`](js/ui-controls.js): UI 制御（トグルボタン、折り畳みセクション等）
@@ -178,33 +183,128 @@ npx http-server -c-1
 - [`kml-parser.js`](js/kml-parser.js): KML 解析の共通ユーティリティ
 - [`list.js`](js/list.js): 一覧ページのメイン処理と KML データ表示
 
+#### 共通ユーティリティモジュール（リファクタリング後）
+
+- [`constants.js`](js/constants.js): 共通定数・マッピングデータの集中管理
+
+  - `MARKER_COLORS`: マーカー色パレット
+  - `ICON_NAME_MAP`, `ICON_COLOR_MAP`: KML 別アイコン・色マッピング
+  - `MAP_CONSTANTS`: 地図関連定数
+  - `DIRECTORY_FILES`, `EXCLUDED_KEYWORDS`: ファイル管理定数
+
+- [`http-client.js`](js/http-client.js): HTTP 通信ユーティリティ
+
+  - `fetchWithTimeout()`: タイムアウト付き fetch
+  - `getResponseText()`: キャッシュ対応レスポンス取得
+  - `formatErrorMessage()`: エラーメッセージ統一フォーマット
+
+- [`kml-config.js`](js/kml-config.js): KML グループ設定管理
+  - `kmlGroups`: グループ定義（消防水利、受援情報）
+  - `getAllKmlFiles()`, `getKmlGroup()` 等のヘルパー関数
+
+### リファクタリングの特徴
+
+**DRY 原則の適用**
+
+- マッピングデータ（アイコン、色）と定数を `constants.js` に一元化
+- 複数モジュール間での重複定義を排除し、保守性向上
+
+**関心の分離**
+
+- HTTP 処理を `http-client.js` に集約
+- KML 設定を `kml-config.js` に管理
+- 定数定義を `constants.js` に集中管理
+
+**再利用性・テスト性**
+
+- 共通ユーティリティが独立したモジュール
+- 各機能が単体テスト可能な粒度に分割
+
+### ユーティリティモジュールの使用例
+
+#### constants.js の使用
+
+```javascript
+import { ICON_NAME_MAP, ICON_COLOR_MAP, MAP_CONSTANTS } from "./constants.js";
+
+// マッピングデータの参照
+const iconName = ICON_NAME_MAP["医療機関"]; // 'local_hospital'
+const color = ICON_COLOR_MAP["医療機関"]; // '#f56454'
+
+// 地図定数の使用
+const [lat, lon] = MAP_CONSTANTS.HAKODATE_CENTER;
+const zoom = MAP_CONSTANTS.DEFAULT_ZOOM; // 12
+```
+
+#### http-client.js の使用
+
+```javascript
+import { fetchWithTimeout, getResponseText, formatErrorMessage } from './http-client.js';
+
+// タイムアウト付きfetch
+const response = await fetchWithTimeout(url, { timeout: 10000 });
+
+// キャッシュ対応テキスト取得
+const text = await getResponseText(response, url);
+
+// 統一されたエラーメッセージ
+catch (error) {
+    const message = formatErrorMessage(error);
+    console.error(`エラー: ${message}`);
+}
+```
+
+#### kml-config.js の使用
+
+```javascript
+import { kmlGroups, getAllKmlFiles, getKmlGroup } from "./kml-config.js";
+
+// 全KMLファイルを取得
+const allFiles = getAllKmlFiles(); // すべてのファイルパス
+
+// グループ定義を取得
+const supportGroup = getKmlGroup("support"); // 受援情報グループ
+
+// グループのタイトルとファイル一覧
+console.log(supportGroup.title); // '受援情報'
+console.log(supportGroup.files); // ファイルパスの配列
+```
+
 ### データフロー
 
 **地図ページ（map.html）**:
 
 ```
+constants.js (定数・マッピング定義)
+    ↓
 map.js (初期化)
-  ↓
+    ↓
 ui-controls.js (UI制御初期化)
-  ↓
+    ↓
+kml-config.js (グループ設定)
+    ↓
 kml-loader.js (KMLファイル読み込み)
-  ↓
+    ↓ (http-client.jsがバックグラウンドで通信)
 kml-parser.js (KML解析) ← omnivore.kml で自動解析
-  ↓
+    ↓
 Leaflet マーカー表示
 ```
 
 **一覧ページ（list.html）**:
 
 ```
+constants.js (定数・ファイル一覧)
+    ↓
 list.js (初期化)
-  ↓
+    ↓
+http-client.js (HTTP通信・キャッシュ管理)
+    ↓
 buildFileList() (表示対象ファイル決定)
-  ↓
+    ↓
 loadAndParseFiles() (複数ファイル読み込み)
-  ↓
+    ↓
 kml-parser.js (各ファイルの KML 解析)
-  ↓
+    ↓
 renderFileSection() (プレイスマーク表示)
 ```
 
@@ -221,8 +321,9 @@ renderFileSection() (プレイスマーク表示)
 #### アイコンが表示されない
 
 1. Material Symbols Outlined の CDN 読み込みが成功しているか確認（ネットワークタブで確認）
-2. [`iconNameMap`](js/kml-loader.js#L49)に対応するアイコン名が設定されているか確認
+2. [`ICON_NAME_MAP`](js/constants.js)に対応するアイコン名が設定されているか確認
 3. アイコン名が[Material Symbols](https://fonts.google.com/icons)に存在するか確認
+4. `kml-loader.js` で正しくマッピングが参照されているか確認
 
 #### 現在地が表示されない（モバイル）
 
